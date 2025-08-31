@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "keywords": [
     "tenantos",
@@ -28,6 +29,7 @@
   },
   "homepage": "https://github.com/shadmanZero/tenantos-api#readme",
   "scripts": {
+    "prebuild": "npm run schema:gen",
     "build": "tsc",
     "start:dev": "ts-node src/index.ts",
     "lint": "eslint src/**/*.ts",

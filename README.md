@@ -14,12 +14,6 @@ Mapping 100% of available TenantOS API calls based on the [official API document
 
 > **Note**: This wrapper covers all endpoints documented in the [official TenantOS API docs](https://api.tenantos.com/docs/). For detailed API specifications, parameter requirements, and response formats, please refer to the official documentation.
 
-## 🚀 Usage
-
-### IntelliSense Support
-Full TypeScript IntelliSense support with comprehensive type definitions and JSDoc documentation.
-
-![IntelliSense Demo](https://via.placeholder.com/600x200/0066cc/ffffff?text=IntelliSense+Support)
 
 ## 📖 Overview
 

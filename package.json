@@ -1,0 +1,67 @@
+{
+  "name": "tenantos-api",
+  "version": "1.0.0",
+  "description": "Type-safe Node.js/TypeScript client for the TenantOS API.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "tenantos",
+    "api",
+    "sdk",
+    "client",
+    "dcim",
+    "bare-metal",
+    "provisioning",
+    "typescript",
+    "node"
+  ],
+  "author": "S Shadman",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadmanZero/tenantos-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shadmanZero/tenantos-api/issues"
+  },
+  "homepage": "https://github.com/shadmanZero/tenantos-api#readme",
+  "scripts": {
+    "build": "tsc",
+    "start:dev": "ts-node src/index.ts",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "schema:gen": "npx openapi-typescript https://api.tenantos.com/docs/openapi.yaml -o src/schema.ts",
+    "docs:api": "typedoc",
+    "docs:openapi": "redoc-cli build openapi.yaml -o docs/openapi/index.html",
+    "docs": "npm run docs:api && npm run docs:openapi",
+    "docs:api:html": "typedoc --options typedoc.html.json"
+  },
+  "license": "ISC",
+  "type": "commonjs",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "axios": "^1.11.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.34.0",
+    "@types/node": "^24.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.41.0",
+    "@typescript-eslint/parser": "^8.41.0",
+    "eslint": "^9.34.0",
+    "eslint-config-prettier": "^10.1.8",
+    "openapi-typescript": "^7.9.1",
+    "prettier": "^3.6.2",
+    "redoc-cli": "^0.13.21",
+    "ts-node": "^10.9.2",
+    "typedoc": "^0.28.11",
+    "typedoc-plugin-markdown": "^4.8.1",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.41.0"
+  }
+}

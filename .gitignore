@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Compiled output
+dist/
+
+# Examples and playground
+examples/
+**/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+src/schema.ts
+
+# Documentation (generated)
+docs/*
+!docs/README.md
+
+# Keep .github/docs for GitHub Pages
+!.github/

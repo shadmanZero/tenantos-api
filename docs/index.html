@@ -3,23 +3,81 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>TenantOS API Docs</title>
-  <style>body{font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:2rem;line-height:1.5}h1{margin-bottom:.5rem}.card{border:1px solid #e5e7eb;border-radius:8px;padding:1rem;margin:.75rem 0}a{text-decoration:none;color:#2563eb}code{background:#f6f8fa;padding:.15rem .35rem;border-radius:4px}</style>
+  <title>TenantOS API Documentation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="description" content="TypeScript API client documentation for TenantOS. Browse HTML/Markdown API references and OpenAPI docs." />
 </head>
-<body>
-  <h1>TenantOS API Documentation</h1>
-  <p>Welcome! Choose a section below.</p>
-  <div class="card">
-    <h2><a href="./api-html/index.html">TypeScript API Reference (HTML)</a></h2>
-    <p>Auto-generated reference for classes, interfaces, and functions.</p>
-  </div>
-  <div class="card">
-    <h2><a href="./api/README.md">TypeScript API Reference (Markdown)</a></h2>
-    <p>Same reference in Markdown format.</p>
-  </div>
-  <div class="card">
-    <h2><a href="./openapi/index.html">REST API (OpenAPI/Redoc)</a></h2>
-    <p>Requires openapi.yaml to be fetched by CI.</p>
-  </div>
+<body class="min-h-screen bg-gradient-to-b from-white to-slate-50 text-slate-900">
+  <header class="border-b border-slate-200 bg-white/80 backdrop-blur">
+    <div class="mx-auto max-w-5xl px-6 py-5 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <div class="h-8 w-8 rounded-md bg-slate-900 text-white grid place-items-center text-sm font-semibold">TO</div>
+        <span class="text-base font-semibold tracking-tight">TenantOS API</span>
+      </div>
+      <nav class="hidden sm:flex items-center gap-4 text-sm">
+        <a class="hover:text-slate-700" href="./api-html/index.html">HTML API</a>
+        <a class="hover:text-slate-700" href="./api/">Markdown API</a>
+        <a class="hover:text-slate-700" href="./openapi/index.html">OpenAPI</a>
+        <a class="hover:text-slate-700" href="https://github.com/shadmanZero/tenantos-api">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-5xl px-6">
+    <section class="py-14 sm:py-18">
+      <div class="text-center">
+        <h1 class="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900">TenantOS API Documentation</h1>
+        <p class="mt-3 text-slate-600 max-w-2xl mx-auto">Type-safe SDK for managing bare-metal servers, network devices, users, and system operations in TenantOS.</p>
+        <div class="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
+          <a href="./api-html/index.html" class="inline-flex items-center justify-center rounded-md bg-slate-900 px-4 py-2 text-white text-sm font-medium shadow hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-slate-400">Open HTML API Reference</a>
+          <a href="./api/" class="inline-flex items-center justify-center rounded-md border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-900 shadow-sm hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-slate-300">Open Markdown API</a>
+          <a href="./openapi/index.html" class="inline-flex items-center justify-center rounded-md border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-900 shadow-sm hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-slate-300">OpenAPI (Redoc)</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="pb-16">
+      <div class="grid gap-6 sm:grid-cols-2">
+        <a href="./api-html/index.html" class="group rounded-xl border border-slate-200 bg-white p-5 shadow-sm hover:shadow transition">
+          <div class="flex items-start justify-between">
+            <h2 class="text-base font-semibold">TypeScript API Reference (HTML)</h2>
+            <span class="text-xs text-slate-500 group-hover:text-slate-700">/api-html/</span>
+          </div>
+          <p class="mt-2 text-sm text-slate-600">Auto-generated reference for classes, interfaces, and functions.</p>
+        </a>
+
+        <a href="./api/" class="group rounded-xl border border-slate-200 bg-white p-5 shadow-sm hover:shadow transition">
+          <div class="flex items-start justify-between">
+            <h2 class="text-base font-semibold">TypeScript API Reference (Markdown)</h2>
+            <span class="text-xs text-slate-500 group-hover:text-slate-700">/api/</span>
+          </div>
+          <p class="mt-2 text-sm text-slate-600">Same reference in Markdown format.</p>
+        </a>
+
+        <a href="./openapi/index.html" class="group rounded-xl border border-slate-200 bg-white p-5 shadow-sm hover:shadow transition">
+          <div class="flex items-start justify-between">
+            <h2 class="text-base font-semibold">REST API (OpenAPI / Redoc)</h2>
+            <span class="text-xs text-slate-500 group-hover:text-slate-700">/openapi/</span>
+          </div>
+          <p class="mt-2 text-sm text-slate-600">Rendered from the official OpenAPI spec (fetched by CI if available).</p>
+        </a>
+
+        <a href="https://www.npmjs.com/package/tenantos-api" class="group rounded-xl border border-slate-200 bg-white p-5 shadow-sm hover:shadow transition">
+          <div class="flex items-start justify-between">
+            <h2 class="text-base font-semibold">NPM Package</h2>
+            <span class="text-xs text-slate-500 group-hover:text-slate-700">npmjs.com</span>
+          </div>
+          <p class="mt-2 text-sm text-slate-600">Install via <code class="px-1 py-0.5 bg-slate-100 rounded">npm i tenantos-api</code> and start building.</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-200 bg-white/60">
+    <div class="mx-auto max-w-5xl px-6 py-8 text-center text-sm text-slate-600">
+      <p>Made with love by <span class="font-medium">Shadman</span> for the TenantOS community.</p>
+      <p class="mt-1"><a class="text-slate-900 hover:underline" href="https://github.com/shadmanZero/tenantos-api">github.com/shadmanZero/tenantos-api</a></p>
+    </div>
+  </footer>
 </body>
 </html>

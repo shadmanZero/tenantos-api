@@ -6,7 +6,7 @@
 
 # Interface: ListOptions\<TFilters\>
 
-Defined in: [types.ts:221](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L221)
+Defined in: [types.ts:221](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L221)
 
 ## Extends
 
@@ -24,7 +24,7 @@ Defined in: [types.ts:221](https://github.com/shadmanZero/tenantos-api/blob/b1ba
 
 > `readonly` `optional` **filters**: `TFilters`
 
-Defined in: [types.ts:222](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L222)
+Defined in: [types.ts:222](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L222)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [types.ts:222](https://github.com/shadmanZero/tenantos-api/blob/b1ba
 
 > `readonly` `optional` **limit**: `number`
 
-Defined in: [types.ts:146](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L146)
+Defined in: [types.ts:146](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L146)
 
 #### Inherited from
 
@@ -44,7 +44,7 @@ Defined in: [types.ts:146](https://github.com/shadmanZero/tenantos-api/blob/b1ba
 
 > `readonly` `optional` **offset**: `number`
 
-Defined in: [types.ts:147](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L147)
+Defined in: [types.ts:147](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L147)
 
 #### Inherited from
 
@@ -56,7 +56,7 @@ Defined in: [types.ts:147](https://github.com/shadmanZero/tenantos-api/blob/b1ba
 
 > `readonly` `optional` **order**: `"asc"` \| `"desc"`
 
-Defined in: [types.ts:224](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L224)
+Defined in: [types.ts:224](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L224)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: [types.ts:224](https://github.com/shadmanZero/tenantos-api/blob/b1ba
 
 > `readonly` `optional` **page**: `number`
 
-Defined in: [types.ts:145](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L145)
+Defined in: [types.ts:145](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L145)
 
 #### Inherited from
 
@@ -76,4 +76,4 @@ Defined in: [types.ts:145](https://github.com/shadmanZero/tenantos-api/blob/b1ba
 
 > `readonly` `optional` **sort**: `string`
 
-Defined in: [types.ts:223](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L223)
+Defined in: [types.ts:223](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L223)

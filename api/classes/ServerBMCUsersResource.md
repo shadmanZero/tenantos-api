@@ -6,7 +6,7 @@
 
 # Class: ServerBMCUsersResource
 
-Defined in: [server-extensions.ts:141](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L141)
+Defined in: [server-extensions.ts:141](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L141)
 
 Server BMC (Baseboard Management Controller) User Management Resource
 
@@ -54,7 +54,7 @@ await bmcUsers.disableUser(newUser.id);
 
 > **new ServerBMCUsersResource**(`client`, `serverId`): `ServerBMCUsersResource`
 
-Defined in: [server-extensions.ts:148](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L148)
+Defined in: [server-extensions.ts:148](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L148)
 
 Creates a new ServerBMCUsersResource instance
 
@@ -86,7 +86,7 @@ The ID of the server to manage BMC users for
 
 > `protected` `readonly` **client**: [`TenantosClient`](TenantosClient.md)
 
-Defined in: [server-extensions.ts:77](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L77)
+Defined in: [server-extensions.ts:77](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L77)
 
 #### Inherited from
 
@@ -98,7 +98,7 @@ Defined in: [server-extensions.ts:77](https://github.com/shadmanZero/tenantos-ap
 
 > **channelSetAccess**(`userId`, `data`): `Promise`\<`void`\>
 
-Defined in: [server-extensions.ts:322](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L322)
+Defined in: [server-extensions.ts:322](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L322)
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: [server-extensions.ts:322](https://github.com/shadmanZero/tenantos-a
 
 > **createUser**(`data`): `Promise`\<[`BMCUser`](../interfaces/BMCUser.md)\>
 
-Defined in: [server-extensions.ts:198](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L198)
+Defined in: [server-extensions.ts:198](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L198)
 
 Create a new BMC user
 
@@ -161,7 +161,7 @@ const user = await bmcUsers.createUser({
 
 > **createUserWithPasswordAndPrivilege**(`data`): `Promise`\<[`BMCUser`](../interfaces/BMCUser.md)\>
 
-Defined in: [server-extensions.ts:238](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L238)
+Defined in: [server-extensions.ts:238](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L238)
 
 Create a BMC user with password and privilege in one operation
 
@@ -219,7 +219,7 @@ const operatorUser = await bmcUsers.createUserWithPasswordAndPrivilege({
 
 > **deleteUser**(`userId`): `Promise`\<`void`\>
 
-Defined in: [server-extensions.ts:272](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L272)
+Defined in: [server-extensions.ts:272](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L272)
 
 #### Parameters
 
@@ -237,7 +237,7 @@ Defined in: [server-extensions.ts:272](https://github.com/shadmanZero/tenantos-a
 
 > **disableUser**(`userId`): `Promise`\<`void`\>
 
-Defined in: [server-extensions.ts:292](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L292)
+Defined in: [server-extensions.ts:292](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L292)
 
 #### Parameters
 
@@ -255,7 +255,7 @@ Defined in: [server-extensions.ts:292](https://github.com/shadmanZero/tenantos-a
 
 > **enableUser**(`userId`): `Promise`\<`void`\>
 
-Defined in: [server-extensions.ts:282](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L282)
+Defined in: [server-extensions.ts:282](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L282)
 
 #### Parameters
 
@@ -273,7 +273,7 @@ Defined in: [server-extensions.ts:282](https://github.com/shadmanZero/tenantos-a
 
 > **listUsers**(): `Promise`\<[`BMCUser`](../interfaces/BMCUser.md)[]\>
 
-Defined in: [server-extensions.ts:170](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L170)
+Defined in: [server-extensions.ts:170](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L170)
 
 List all BMC users for the server
 
@@ -306,7 +306,7 @@ users.forEach(user => {
 
 > `protected` **request**\<`T`\>(`config`): `Promise`\<[`ApiResponse`](../interfaces/ApiResponse.md)\<`T`\>\>
 
-Defined in: [server-extensions.ts:82](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L82)
+Defined in: [server-extensions.ts:82](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L82)
 
 Make a request to the API with automatic error handling
 
@@ -336,7 +336,7 @@ Make a request to the API with automatic error handling
 
 > **setUserPassword**(`userId`, `password`): `Promise`\<`void`\>
 
-Defined in: [server-extensions.ts:302](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L302)
+Defined in: [server-extensions.ts:302](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L302)
 
 #### Parameters
 
@@ -358,7 +358,7 @@ Defined in: [server-extensions.ts:302](https://github.com/shadmanZero/tenantos-a
 
 > **setUserPrivilege**(`userId`, `privilege`): `Promise`\<`void`\>
 
-Defined in: [server-extensions.ts:312](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L312)
+Defined in: [server-extensions.ts:312](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L312)
 
 #### Parameters
 
@@ -380,7 +380,7 @@ Defined in: [server-extensions.ts:312](https://github.com/shadmanZero/tenantos-a
 
 > **updateUser**(`userId`, `data`): `Promise`\<[`BMCUser`](../interfaces/BMCUser.md)\>
 
-Defined in: [server-extensions.ts:256](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L256)
+Defined in: [server-extensions.ts:256](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L256)
 
 #### Parameters
 
@@ -402,7 +402,7 @@ Defined in: [server-extensions.ts:256](https://github.com/shadmanZero/tenantos-a
 
 > `protected` **validateId**(`id`, `resourceName`): `void`
 
-Defined in: [server-extensions.ts:89](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L89)
+Defined in: [server-extensions.ts:89](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L89)
 
 Validate that an ID is a positive integer
 
@@ -430,7 +430,7 @@ Validate that an ID is a positive integer
 
 > `protected` **validateRequiredString**(`value`, `fieldName`): `void`
 
-Defined in: [server-extensions.ts:98](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L98)
+Defined in: [server-extensions.ts:98](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L98)
 
 Validate required string field
 

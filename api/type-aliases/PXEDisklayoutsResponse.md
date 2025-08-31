@@ -8,4 +8,4 @@
 
 > **PXEDisklayoutsResponse** = [`ResponseOf`](ResponseOf.md)\<[`GetEndpoint`](GetEndpoint.md)\<`"/api/pxe/disklayouts"`\>\>
 
-Defined in: [types.ts:675](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L675)
+Defined in: [types.ts:675](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L675)

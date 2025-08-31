@@ -6,7 +6,7 @@
 
 # Interface: SystemVersion
 
-Defined in: [types.ts:640](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L640)
+Defined in: [types.ts:640](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L640)
 
 ## Properties
 
@@ -14,4 +14,4 @@ Defined in: [types.ts:640](https://github.com/shadmanZero/tenantos-api/blob/b1ba
 
 > `readonly` `optional` **version**: `string`
 
-Defined in: [types.ts:641](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L641)
+Defined in: [types.ts:641](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L641)

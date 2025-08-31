@@ -8,7 +8,7 @@
 
 > **isTenantosApiError**(`error`): `error is TenantosApiError`
 
-Defined in: [errors.ts:341](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/errors.ts#L341)
+Defined in: [errors.ts:341](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/errors.ts#L341)
 
 Type guard to check if an error is a TenantOS API error
 

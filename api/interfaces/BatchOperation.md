@@ -6,7 +6,7 @@
 
 # Interface: BatchOperation\<T\>
 
-Defined in: [types.ts:696](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L696)
+Defined in: [types.ts:696](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L696)
 
 ## Type Parameters
 
@@ -20,7 +20,7 @@ Defined in: [types.ts:696](https://github.com/shadmanZero/tenantos-api/blob/b1ba
 
 > `readonly` `optional` **concurrency**: `number`
 
-Defined in: [types.ts:698](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L698)
+Defined in: [types.ts:698](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L698)
 
 ***
 
@@ -28,4 +28,4 @@ Defined in: [types.ts:698](https://github.com/shadmanZero/tenantos-api/blob/b1ba
 
 > `readonly` **items**: readonly `T`[]
 
-Defined in: [types.ts:697](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L697)
+Defined in: [types.ts:697](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L697)

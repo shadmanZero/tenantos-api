@@ -6,7 +6,7 @@
 
 # Class: ServerSnapshotsResource
 
-Defined in: [server-extensions.ts:390](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L390)
+Defined in: [server-extensions.ts:390](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L390)
 
 Server Snapshots resource
 
@@ -20,7 +20,7 @@ Server Snapshots resource
 
 > **new ServerSnapshotsResource**(`client`, `serverId`): `ServerSnapshotsResource`
 
-Defined in: [server-extensions.ts:391](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L391)
+Defined in: [server-extensions.ts:391](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L391)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [server-extensions.ts:391](https://github.com/shadmanZero/tenantos-a
 
 > `protected` `readonly` **client**: [`TenantosClient`](TenantosClient.md)
 
-Defined in: [server-extensions.ts:77](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L77)
+Defined in: [server-extensions.ts:77](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L77)
 
 #### Inherited from
 
@@ -58,7 +58,7 @@ Defined in: [server-extensions.ts:77](https://github.com/shadmanZero/tenantos-ap
 
 > **create**(`data`): `Promise`\<`void`\>
 
-Defined in: [server-extensions.ts:404](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L404)
+Defined in: [server-extensions.ts:404](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L404)
 
 #### Parameters
 
@@ -76,7 +76,7 @@ Defined in: [server-extensions.ts:404](https://github.com/shadmanZero/tenantos-a
 
 > **delete**(`snapshotId?`): `Promise`\<`void`\>
 
-Defined in: [server-extensions.ts:412](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L412)
+Defined in: [server-extensions.ts:412](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L412)
 
 #### Parameters
 
@@ -94,7 +94,7 @@ Defined in: [server-extensions.ts:412](https://github.com/shadmanZero/tenantos-a
 
 > **getAvailable**(): `Promise`\<[`ServerSnapshot`](../interfaces/ServerSnapshot.md)[]\>
 
-Defined in: [server-extensions.ts:431](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L431)
+Defined in: [server-extensions.ts:431](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L431)
 
 #### Returns
 
@@ -106,7 +106,7 @@ Defined in: [server-extensions.ts:431](https://github.com/shadmanZero/tenantos-a
 
 > **list**(): `Promise`\<[`ServerSnapshot`](../interfaces/ServerSnapshot.md)[]\>
 
-Defined in: [server-extensions.ts:395](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L395)
+Defined in: [server-extensions.ts:395](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L395)
 
 #### Returns
 
@@ -118,7 +118,7 @@ Defined in: [server-extensions.ts:395](https://github.com/shadmanZero/tenantos-a
 
 > `protected` **request**\<`T`\>(`config`): `Promise`\<[`ApiResponse`](../interfaces/ApiResponse.md)\<`T`\>\>
 
-Defined in: [server-extensions.ts:82](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L82)
+Defined in: [server-extensions.ts:82](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L82)
 
 Make a request to the API with automatic error handling
 
@@ -148,7 +148,7 @@ Make a request to the API with automatic error handling
 
 > **rollback**(`data`): `Promise`\<`void`\>
 
-Defined in: [server-extensions.ts:423](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L423)
+Defined in: [server-extensions.ts:423](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L423)
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: [server-extensions.ts:423](https://github.com/shadmanZero/tenantos-a
 
 > `protected` **validateId**(`id`, `resourceName`): `void`
 
-Defined in: [server-extensions.ts:89](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L89)
+Defined in: [server-extensions.ts:89](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L89)
 
 Validate that an ID is a positive integer
 
@@ -194,7 +194,7 @@ Validate that an ID is a positive integer
 
 > `protected` **validateRequiredString**(`value`, `fieldName`): `void`
 
-Defined in: [server-extensions.ts:98](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/server-extensions.ts#L98)
+Defined in: [server-extensions.ts:98](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L98)
 
 Validate required string field
 

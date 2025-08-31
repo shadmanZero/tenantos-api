@@ -6,7 +6,7 @@
 
 # Interface: ExternalProvider
 
-Defined in: [types.ts:303](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L303)
+Defined in: [types.ts:303](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L303)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:303](https://github.com/shadmanZero/tenantos-api/blob/b1ba
 
 > `readonly` **config**: `Record`\<`string`, `unknown`\>
 
-Defined in: [types.ts:307](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L307)
+Defined in: [types.ts:307](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L307)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:307](https://github.com/shadmanZero/tenantos-api/blob/b1ba
 
 > `readonly` **enabled**: `boolean`
 
-Defined in: [types.ts:308](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L308)
+Defined in: [types.ts:308](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L308)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:308](https://github.com/shadmanZero/tenantos-api/blob/b1ba
 
 > `readonly` **id**: `number`
 
-Defined in: [types.ts:304](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L304)
+Defined in: [types.ts:304](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L304)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [types.ts:304](https://github.com/shadmanZero/tenantos-api/blob/b1ba
 
 > `readonly` **name**: `string`
 
-Defined in: [types.ts:305](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L305)
+Defined in: [types.ts:305](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L305)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: [types.ts:305](https://github.com/shadmanZero/tenantos-api/blob/b1ba
 
 > `readonly` **type**: `string`
 
-Defined in: [types.ts:306](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L306)
+Defined in: [types.ts:306](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L306)

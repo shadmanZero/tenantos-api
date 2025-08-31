@@ -21,6 +21,7 @@ src/schema.ts
 # Documentation (generated)
 docs/*
 !docs/README.md
+!docs/index.html
 
 # Keep .github/docs for GitHub Pages
 !.github/

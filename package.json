@@ -37,7 +37,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "schema:gen": "npx openapi-typescript https://api.tenantos.com/docs/openapi.yaml -o src/schema.ts",
     "docs:api": "typedoc",
-    "docs:openapi": "redoc-cli build openapi.yaml -o docs/openapi/index.html",
+    "docs:openapi": "npx @redocly/cli build-docs openapi.yaml -o docs/openapi/index.html",
     "docs": "npm run docs:api && npm run docs:openapi",
     "docs:api:html": "typedoc --options typedoc.html.json"
   },

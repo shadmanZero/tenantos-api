@@ -25,14 +25,25 @@ jobs:
       
     - name: Build project
       run: npm run build
-      
-    - name: Generate documentation
-      run: npm run docs
+
+    - name: Generate TypeDoc (Markdown)
+      run: npm run docs:api
+
+    - name: Fetch OpenAPI spec
+      run: curl -L https://api.tenantos.com/docs/openapi.yaml -o openapi.yaml
+
+    - name: Generate Redoc (OpenAPI HTML)
+      run: |
+        if [ -f openapi.yaml ]; then
+          npm run docs:openapi || echo "Redoc generation failed; continuing"
+        else
+          echo "No openapi.yaml found; skipping Redoc"
+        fi
       
     - name: Deploy to GitHub Pages
       if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./.github/docs
-        destination_dir: docs
+        publish_dir: ./docs
+        destination_dir: .

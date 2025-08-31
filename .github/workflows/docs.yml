@@ -31,6 +31,9 @@ jobs:
     - name: Generate TypeDoc (Markdown)
       run: npm run docs:api
 
+    - name: Generate TypeDoc (HTML)
+      run: npm run docs:api:html
+
     - name: Fetch OpenAPI spec
       run: curl -L https://api.tenantos.com/docs/openapi.yaml -o openapi.yaml
 

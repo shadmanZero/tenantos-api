@@ -6,7 +6,7 @@
 
 # Interface: SystemSetting
 
-Defined in: [types.ts:417](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L417)
+Defined in: [types.ts:417](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L417)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:417](https://github.com/shadmanZero/tenantos-api/blob/50bb
 
 > `readonly` `optional` **description**: `string`
 
-Defined in: [types.ts:421](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L421)
+Defined in: [types.ts:421](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L421)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:421](https://github.com/shadmanZero/tenantos-api/blob/50bb
 
 > `readonly` **key**: `string`
 
-Defined in: [types.ts:418](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L418)
+Defined in: [types.ts:418](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L418)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:418](https://github.com/shadmanZero/tenantos-api/blob/50bb
 
 > `readonly` **type**: `string`
 
-Defined in: [types.ts:420](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L420)
+Defined in: [types.ts:420](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L420)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [types.ts:420](https://github.com/shadmanZero/tenantos-api/blob/50bb
 
 > `readonly` **value**: `unknown`
 
-Defined in: [types.ts:419](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L419)
+Defined in: [types.ts:419](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L419)

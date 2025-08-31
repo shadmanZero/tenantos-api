@@ -6,7 +6,7 @@
 
 # Class: PXEProfilesResource
 
-Defined in: [resources.ts:116](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L116)
+Defined in: [resources.ts:116](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L116)
 
 PXE Profiles management resource
 
@@ -20,7 +20,7 @@ PXE Profiles management resource
 
 > **new PXEProfilesResource**(`client`): `PXEProfilesResource`
 
-Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L85)
+Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L85)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/5
 
 > `protected` `readonly` **client**: [`TenantosClient`](TenantosClient.md)
 
-Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L85)
+Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L85)
 
 #### Inherited from
 
@@ -54,7 +54,7 @@ Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/5
 
 > **clearCache**(`pxeProfileId`): `Promise`\<`void`\>
 
-Defined in: [resources.ts:198](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L198)
+Defined in: [resources.ts:198](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L198)
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: [resources.ts:198](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **create**(`data`): `Promise`\<[`PXEProfile`](../interfaces/PXEProfile.md)\>
 
-Defined in: [resources.ts:144](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L144)
+Defined in: [resources.ts:144](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L144)
 
 #### Parameters
 
@@ -680,7 +680,7 @@ false
 
 > **delete**(`id`): `Promise`\<`void`\>
 
-Defined in: [resources.ts:174](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L174)
+Defined in: [resources.ts:174](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L174)
 
 #### Parameters
 
@@ -698,7 +698,7 @@ Defined in: [resources.ts:174](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **duplicate**(`pxeProfileId`): `Promise`\<[`PXEProfile`](../interfaces/PXEProfile.md)\>
 
-Defined in: [resources.ts:183](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L183)
+Defined in: [resources.ts:183](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L183)
 
 #### Parameters
 
@@ -716,7 +716,7 @@ Defined in: [resources.ts:183](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **get**(`id`): `Promise`\<[`PXEProfile`](../interfaces/PXEProfile.md)\>
 
-Defined in: [resources.ts:129](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L129)
+Defined in: [resources.ts:129](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L129)
 
 #### Parameters
 
@@ -734,7 +734,7 @@ Defined in: [resources.ts:129](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **getProfilesByTags**(`tags`): `Promise`\<[`PXEProfile`](../interfaces/PXEProfile.md)[]\>
 
-Defined in: [resources.ts:225](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L225)
+Defined in: [resources.ts:225](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L225)
 
 #### Parameters
 
@@ -752,7 +752,7 @@ Defined in: [resources.ts:225](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **getTags**(): `Promise`\<`string`[]\>
 
-Defined in: [resources.ts:216](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L216)
+Defined in: [resources.ts:216](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L216)
 
 #### Returns
 
@@ -764,7 +764,7 @@ Defined in: [resources.ts:216](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **list**(`options`): `Promise`\<[`PXEProfile`](../interfaces/PXEProfile.md)[]\>
 
-Defined in: [resources.ts:117](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L117)
+Defined in: [resources.ts:117](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L117)
 
 #### Parameters
 
@@ -782,7 +782,7 @@ Defined in: [resources.ts:117](https://github.com/shadmanZero/tenantos-api/blob/
 
 > `protected` **request**\<`T`\>(`config`): `Promise`\<[`ApiResponse`](../interfaces/ApiResponse.md)\<`T`\>\>
 
-Defined in: [resources.ts:90](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L90)
+Defined in: [resources.ts:90](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L90)
 
 Make a request to the API with automatic error handling
 
@@ -812,7 +812,7 @@ Make a request to the API with automatic error handling
 
 > **restore**(`pxeProfileId`): `Promise`\<`void`\>
 
-Defined in: [resources.ts:207](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L207)
+Defined in: [resources.ts:207](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L207)
 
 #### Parameters
 
@@ -830,7 +830,7 @@ Defined in: [resources.ts:207](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **update**(`id`, `data`): `Promise`\<[`PXEProfile`](../interfaces/PXEProfile.md)\>
 
-Defined in: [resources.ts:158](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L158)
+Defined in: [resources.ts:158](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L158)
 
 #### Parameters
 
@@ -852,7 +852,7 @@ Defined in: [resources.ts:158](https://github.com/shadmanZero/tenantos-api/blob/
 
 > `protected` **validateId**(`id`, `resourceName`): `void`
 
-Defined in: [resources.ts:97](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L97)
+Defined in: [resources.ts:97](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L97)
 
 Validate that an ID is a positive integer
 
@@ -880,7 +880,7 @@ Validate that an ID is a positive integer
 
 > `protected` **validateRequiredString**(`value`, `fieldName`): `void`
 
-Defined in: [resources.ts:106](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L106)
+Defined in: [resources.ts:106](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L106)
 
 Validate required string field
 

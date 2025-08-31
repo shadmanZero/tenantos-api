@@ -6,7 +6,7 @@
 
 # Class: ServerNetworkResource
 
-Defined in: [server-extensions.ts:807](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L807)
+Defined in: [server-extensions.ts:807](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/server-extensions.ts#L807)
 
 Server Network Management resource
 
@@ -20,7 +20,7 @@ Server Network Management resource
 
 > **new ServerNetworkResource**(`client`, `serverId`): `ServerNetworkResource`
 
-Defined in: [server-extensions.ts:808](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L808)
+Defined in: [server-extensions.ts:808](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/server-extensions.ts#L808)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [server-extensions.ts:808](https://github.com/shadmanZero/tenantos-a
 
 > `protected` `readonly` **client**: [`TenantosClient`](TenantosClient.md)
 
-Defined in: [server-extensions.ts:77](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L77)
+Defined in: [server-extensions.ts:77](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/server-extensions.ts#L77)
 
 #### Inherited from
 
@@ -58,7 +58,7 @@ Defined in: [server-extensions.ts:77](https://github.com/shadmanZero/tenantos-ap
 
 > **getManageableNetworkPorts**(): `Promise`\<`any`[]\>
 
-Defined in: [server-extensions.ts:820](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L820)
+Defined in: [server-extensions.ts:820](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/server-extensions.ts#L820)
 
 #### Returns
 
@@ -70,7 +70,7 @@ Defined in: [server-extensions.ts:820](https://github.com/shadmanZero/tenantos-a
 
 > **regenerateVlanConfiguration**(`data`): `Promise`\<`void`\>
 
-Defined in: [server-extensions.ts:812](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L812)
+Defined in: [server-extensions.ts:812](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/server-extensions.ts#L812)
 
 #### Parameters
 
@@ -88,7 +88,7 @@ Defined in: [server-extensions.ts:812](https://github.com/shadmanZero/tenantos-a
 
 > `protected` **request**\<`T`\>(`config`): `Promise`\<[`ApiResponse`](../interfaces/ApiResponse.md)\<`T`\>\>
 
-Defined in: [server-extensions.ts:82](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L82)
+Defined in: [server-extensions.ts:82](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/server-extensions.ts#L82)
 
 Make a request to the API with automatic error handling
 
@@ -118,7 +118,7 @@ Make a request to the API with automatic error handling
 
 > `protected` **validateId**(`id`, `resourceName`): `void`
 
-Defined in: [server-extensions.ts:89](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L89)
+Defined in: [server-extensions.ts:89](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/server-extensions.ts#L89)
 
 Validate that an ID is a positive integer
 
@@ -146,7 +146,7 @@ Validate that an ID is a positive integer
 
 > `protected` **validateRequiredString**(`value`, `fieldName`): `void`
 
-Defined in: [server-extensions.ts:98](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L98)
+Defined in: [server-extensions.ts:98](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/server-extensions.ts#L98)
 
 Validate required string field
 

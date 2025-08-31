@@ -6,7 +6,7 @@
 
 # Class: TenantosConfigError
 
-Defined in: [errors.ts:257](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/errors.ts#L257)
+Defined in: [errors.ts:257](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/errors.ts#L257)
 
 Thrown when client configuration is invalid
 
@@ -20,7 +20,7 @@ Thrown when client configuration is invalid
 
 > **new TenantosConfigError**(`message`, `field?`, `options?`): `TenantosConfigError`
 
-Defined in: [errors.ts:260](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/errors.ts#L260)
+Defined in: [errors.ts:260](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/errors.ts#L260)
 
 #### Parameters
 
@@ -52,7 +52,7 @@ Defined in: [errors.ts:260](https://github.com/shadmanZero/tenantos-api/blob/50b
 
 > `readonly` `optional` **field**: `string`
 
-Defined in: [errors.ts:260](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/errors.ts#L260)
+Defined in: [errors.ts:260](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/errors.ts#L260)
 
 ***
 
@@ -60,7 +60,7 @@ Defined in: [errors.ts:260](https://github.com/shadmanZero/tenantos-api/blob/50b
 
 > `readonly` **name**: `string` = `'TenantosConfigError'`
 
-Defined in: [errors.ts:258](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/errors.ts#L258)
+Defined in: [errors.ts:258](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/errors.ts#L258)
 
 #### Overrides
 

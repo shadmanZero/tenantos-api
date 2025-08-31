@@ -6,7 +6,7 @@
 
 # Class: SystemResource
 
-Defined in: [resources.ts:996](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L996)
+Defined in: [resources.ts:996](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L996)
 
 System management resource
 
@@ -20,7 +20,7 @@ System management resource
 
 > **new SystemResource**(`client`): `SystemResource`
 
-Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L85)
+Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L85)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/5
 
 > `readonly` **backups**: `object`
 
-Defined in: [resources.ts:998](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L998)
+Defined in: [resources.ts:998](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L998)
 
 #### create()
 
@@ -158,7 +158,7 @@ Defined in: [resources.ts:998](https://github.com/shadmanZero/tenantos-api/blob/
 
 > `protected` `readonly` **client**: [`TenantosClient`](TenantosClient.md)
 
-Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L85)
+Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L85)
 
 #### Inherited from
 
@@ -170,7 +170,7 @@ Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/5
 
 > `readonly` **logs**: `object`
 
-Defined in: [resources.ts:1086](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1086)
+Defined in: [resources.ts:1086](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L1086)
 
 #### getAgentLogs()
 
@@ -208,7 +208,7 @@ Defined in: [resources.ts:1086](https://github.com/shadmanZero/tenantos-api/blob
 
 > `readonly` **settings**: `object`
 
-Defined in: [resources.ts:1118](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1118)
+Defined in: [resources.ts:1118](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L1118)
 
 #### getGlobalSettings()
 
@@ -252,7 +252,7 @@ Defined in: [resources.ts:1118](https://github.com/shadmanZero/tenantos-api/blob
 
 > `readonly` **ui**: `object`
 
-Defined in: [resources.ts:1170](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1170)
+Defined in: [resources.ts:1170](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L1170)
 
 #### getLanguage()
 
@@ -284,7 +284,7 @@ Defined in: [resources.ts:1170](https://github.com/shadmanZero/tenantos-api/blob
 
 > **getListTimeDateFormats**(): `Promise`\<`string`[]\>
 
-Defined in: [resources.ts:1160](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1160)
+Defined in: [resources.ts:1160](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L1160)
 
 #### Returns
 
@@ -296,7 +296,7 @@ Defined in: [resources.ts:1160](https://github.com/shadmanZero/tenantos-api/blob
 
 > **getSettingsAfterLogin**(): `Promise`\<`any`\>
 
-Defined in: [resources.ts:1151](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1151)
+Defined in: [resources.ts:1151](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L1151)
 
 #### Returns
 
@@ -308,7 +308,7 @@ Defined in: [resources.ts:1151](https://github.com/shadmanZero/tenantos-api/blob
 
 > `protected` **request**\<`T`\>(`config`): `Promise`\<[`ApiResponse`](../interfaces/ApiResponse.md)\<`T`\>\>
 
-Defined in: [resources.ts:90](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L90)
+Defined in: [resources.ts:90](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L90)
 
 Make a request to the API with automatic error handling
 
@@ -338,7 +338,7 @@ Make a request to the API with automatic error handling
 
 > `protected` **validateId**(`id`, `resourceName`): `void`
 
-Defined in: [resources.ts:97](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L97)
+Defined in: [resources.ts:97](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L97)
 
 Validate that an ID is a positive integer
 
@@ -366,7 +366,7 @@ Validate that an ID is a positive integer
 
 > `protected` **validateRequiredString**(`value`, `fieldName`): `void`
 
-Defined in: [resources.ts:106](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L106)
+Defined in: [resources.ts:106](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L106)
 
 Validate required string field
 

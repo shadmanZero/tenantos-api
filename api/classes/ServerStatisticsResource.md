@@ -6,7 +6,7 @@
 
 # Class: ServerStatisticsResource
 
-Defined in: [server-extensions.ts:948](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L948)
+Defined in: [server-extensions.ts:948](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/server-extensions.ts#L948)
 
 Server Statistics resource
 
@@ -20,7 +20,7 @@ Server Statistics resource
 
 > **new ServerStatisticsResource**(`client`, `serverId`): `ServerStatisticsResource`
 
-Defined in: [server-extensions.ts:949](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L949)
+Defined in: [server-extensions.ts:949](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/server-extensions.ts#L949)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [server-extensions.ts:949](https://github.com/shadmanZero/tenantos-a
 
 > `protected` `readonly` **client**: [`TenantosClient`](TenantosClient.md)
 
-Defined in: [server-extensions.ts:77](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L77)
+Defined in: [server-extensions.ts:77](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/server-extensions.ts#L77)
 
 #### Inherited from
 
@@ -58,7 +58,7 @@ Defined in: [server-extensions.ts:77](https://github.com/shadmanZero/tenantos-ap
 
 > **getAvailableStatistics**(): `Promise`\<`string`[]\>
 
-Defined in: [server-extensions.ts:1003](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L1003)
+Defined in: [server-extensions.ts:1003](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/server-extensions.ts#L1003)
 
 #### Returns
 
@@ -70,7 +70,7 @@ Defined in: [server-extensions.ts:1003](https://github.com/shadmanZero/tenantos-
 
 > **getCPUStats**(`statsMode`, `data?`): `Promise`\<[`CPUStats`](../interfaces/CPUStats.md)[]\>
 
-Defined in: [server-extensions.ts:973](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L973)
+Defined in: [server-extensions.ts:973](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/server-extensions.ts#L973)
 
 #### Parameters
 
@@ -92,7 +92,7 @@ Defined in: [server-extensions.ts:973](https://github.com/shadmanZero/tenantos-a
 
 > **getDiskIOStats**(`statsMode`, `data?`): `Promise`\<[`DiskIOStats`](../interfaces/DiskIOStats.md)[]\>
 
-Defined in: [server-extensions.ts:993](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L993)
+Defined in: [server-extensions.ts:993](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/server-extensions.ts#L993)
 
 #### Parameters
 
@@ -114,7 +114,7 @@ Defined in: [server-extensions.ts:993](https://github.com/shadmanZero/tenantos-a
 
 > **getIPMIStats**(`statsMode`, `data?`): `Promise`\<`any`[]\>
 
-Defined in: [server-extensions.ts:963](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L963)
+Defined in: [server-extensions.ts:963](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/server-extensions.ts#L963)
 
 #### Parameters
 
@@ -136,7 +136,7 @@ Defined in: [server-extensions.ts:963](https://github.com/shadmanZero/tenantos-a
 
 > **getMemoryStats**(`statsMode`, `data?`): `Promise`\<[`MemoryStats`](../interfaces/MemoryStats.md)[]\>
 
-Defined in: [server-extensions.ts:983](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L983)
+Defined in: [server-extensions.ts:983](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/server-extensions.ts#L983)
 
 #### Parameters
 
@@ -158,7 +158,7 @@ Defined in: [server-extensions.ts:983](https://github.com/shadmanZero/tenantos-a
 
 > **getNetworkStats**(`statsMode`, `data?`): `Promise`\<[`NetworkStats`](../interfaces/NetworkStats.md)[]\>
 
-Defined in: [server-extensions.ts:953](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L953)
+Defined in: [server-extensions.ts:953](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/server-extensions.ts#L953)
 
 #### Parameters
 
@@ -180,7 +180,7 @@ Defined in: [server-extensions.ts:953](https://github.com/shadmanZero/tenantos-a
 
 > `protected` **request**\<`T`\>(`config`): `Promise`\<[`ApiResponse`](../interfaces/ApiResponse.md)\<`T`\>\>
 
-Defined in: [server-extensions.ts:82](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L82)
+Defined in: [server-extensions.ts:82](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/server-extensions.ts#L82)
 
 Make a request to the API with automatic error handling
 
@@ -210,7 +210,7 @@ Make a request to the API with automatic error handling
 
 > `protected` **validateId**(`id`, `resourceName`): `void`
 
-Defined in: [server-extensions.ts:89](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L89)
+Defined in: [server-extensions.ts:89](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/server-extensions.ts#L89)
 
 Validate that an ID is a positive integer
 
@@ -238,7 +238,7 @@ Validate that an ID is a positive integer
 
 > `protected` **validateRequiredString**(`value`, `fieldName`): `void`
 
-Defined in: [server-extensions.ts:98](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L98)
+Defined in: [server-extensions.ts:98](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/server-extensions.ts#L98)
 
 Validate required string field
 

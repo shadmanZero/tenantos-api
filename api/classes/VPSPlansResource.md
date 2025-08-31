@@ -6,7 +6,7 @@
 
 # Class: VPSPlansResource
 
-Defined in: [resources.ts:1567](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1567)
+Defined in: [resources.ts:1567](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L1567)
 
 VPS Plans management resource
 
@@ -20,7 +20,7 @@ VPS Plans management resource
 
 > **new VPSPlansResource**(`client`): `VPSPlansResource`
 
-Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L85)
+Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L85)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/5
 
 > `readonly` **balancerPlans**: `object`
 
-Defined in: [resources.ts:1650](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1650)
+Defined in: [resources.ts:1650](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L1650)
 
 #### create()
 
@@ -132,7 +132,7 @@ Defined in: [resources.ts:1650](https://github.com/shadmanZero/tenantos-api/blob
 
 > `protected` `readonly` **client**: [`TenantosClient`](TenantosClient.md)
 
-Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L85)
+Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L85)
 
 #### Inherited from
 
@@ -144,7 +144,7 @@ Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/5
 
 > **create**(`data`): `Promise`\<[`VPSPlan`](../interfaces/VPSPlan.md)\>
 
-Defined in: [resources.ts:1595](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1595)
+Defined in: [resources.ts:1595](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L1595)
 
 #### Parameters
 
@@ -198,7 +198,7 @@ et
 
 > **delete**(`id`): `Promise`\<`void`\>
 
-Defined in: [resources.ts:1625](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1625)
+Defined in: [resources.ts:1625](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L1625)
 
 #### Parameters
 
@@ -216,7 +216,7 @@ Defined in: [resources.ts:1625](https://github.com/shadmanZero/tenantos-api/blob
 
 > **duplicate**(`vpsplan`): `Promise`\<[`VPSPlan`](../interfaces/VPSPlan.md)\>
 
-Defined in: [resources.ts:1634](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1634)
+Defined in: [resources.ts:1634](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L1634)
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: [resources.ts:1634](https://github.com/shadmanZero/tenantos-api/blob
 
 > **get**(`id`): `Promise`\<[`VPSPlan`](../interfaces/VPSPlan.md)\>
 
-Defined in: [resources.ts:1580](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1580)
+Defined in: [resources.ts:1580](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L1580)
 
 #### Parameters
 
@@ -252,7 +252,7 @@ Defined in: [resources.ts:1580](https://github.com/shadmanZero/tenantos-api/blob
 
 > **getAssignableSubnets**(): `Promise`\<[`Subnet`](../interfaces/Subnet.md)[]\>
 
-Defined in: [resources.ts:1721](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1721)
+Defined in: [resources.ts:1721](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L1721)
 
 #### Returns
 
@@ -264,7 +264,7 @@ Defined in: [resources.ts:1721](https://github.com/shadmanZero/tenantos-api/blob
 
 > **list**(`options`): `Promise`\<[`VPSPlan`](../interfaces/VPSPlan.md)[]\>
 
-Defined in: [resources.ts:1568](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1568)
+Defined in: [resources.ts:1568](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L1568)
 
 #### Parameters
 
@@ -282,7 +282,7 @@ Defined in: [resources.ts:1568](https://github.com/shadmanZero/tenantos-api/blob
 
 > `protected` **request**\<`T`\>(`config`): `Promise`\<[`ApiResponse`](../interfaces/ApiResponse.md)\<`T`\>\>
 
-Defined in: [resources.ts:90](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L90)
+Defined in: [resources.ts:90](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L90)
 
 Make a request to the API with automatic error handling
 
@@ -312,7 +312,7 @@ Make a request to the API with automatic error handling
 
 > **update**(`id`, `data`): `Promise`\<[`VPSPlan`](../interfaces/VPSPlan.md)\>
 
-Defined in: [resources.ts:1609](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1609)
+Defined in: [resources.ts:1609](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L1609)
 
 #### Parameters
 
@@ -334,7 +334,7 @@ Defined in: [resources.ts:1609](https://github.com/shadmanZero/tenantos-api/blob
 
 > `protected` **validateId**(`id`, `resourceName`): `void`
 
-Defined in: [resources.ts:97](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L97)
+Defined in: [resources.ts:97](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L97)
 
 Validate that an ID is a positive integer
 
@@ -362,7 +362,7 @@ Validate that an ID is a positive integer
 
 > `protected` **validateRequiredString**(`value`, `fieldName`): `void`
 
-Defined in: [resources.ts:106](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L106)
+Defined in: [resources.ts:106](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L106)
 
 Validate required string field
 

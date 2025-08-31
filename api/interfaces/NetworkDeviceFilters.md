@@ -6,7 +6,7 @@
 
 # Interface: NetworkDeviceFilters
 
-Defined in: [types.ts:164](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L164)
+Defined in: [types.ts:164](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L164)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [types.ts:164](https://github.com/shadmanZero/tenantos-api/blob/fe61
 
 > `readonly` `optional` **agentId**: `number`
 
-Defined in: [types.ts:166](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L166)
+Defined in: [types.ts:166](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L166)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [types.ts:166](https://github.com/shadmanZero/tenantos-api/blob/fe61
 
 > `readonly` `optional` **deviceType**: `string`
 
-Defined in: [types.ts:165](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L165)
+Defined in: [types.ts:165](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L165)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [types.ts:165](https://github.com/shadmanZero/tenantos-api/blob/fe61
 
 > `readonly` `optional` **search**: `string`
 
-Defined in: [types.ts:152](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L152)
+Defined in: [types.ts:152](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L152)
 
 #### Inherited from
 

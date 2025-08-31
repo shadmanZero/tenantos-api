@@ -6,7 +6,7 @@
 
 # Class: TenantosClient
 
-Defined in: [client.ts:1303](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1303)
+Defined in: [client.ts:1303](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1303)
 
 Main TenantOS API client with comprehensive error handling and retry logic
 
@@ -80,7 +80,7 @@ try {
 
 > **new TenantosClient**(`config`): `TenantosClient`
 
-Defined in: [client.ts:1353](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1353)
+Defined in: [client.ts:1353](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1353)
 
 Creates a new TenantOS API client instance
 
@@ -121,7 +121,7 @@ const client = new TenantosClient({
 
 > `readonly` **aliasRoles**: `AliasRolesResource`
 
-Defined in: [client.ts:1310](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1310)
+Defined in: [client.ts:1310](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1310)
 
 ***
 
@@ -129,7 +129,7 @@ Defined in: [client.ts:1310](https://github.com/shadmanZero/tenantos-api/blob/fe
 
 > `readonly` **aliasUsers**: `AliasUsersResource`
 
-Defined in: [client.ts:1311](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1311)
+Defined in: [client.ts:1311](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1311)
 
 ***
 
@@ -137,7 +137,7 @@ Defined in: [client.ts:1311](https://github.com/shadmanZero/tenantos-api/blob/fe
 
 > `readonly` **brands**: `BrandsResource`
 
-Defined in: [client.ts:1312](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1312)
+Defined in: [client.ts:1312](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1312)
 
 ***
 
@@ -145,7 +145,7 @@ Defined in: [client.ts:1312](https://github.com/shadmanZero/tenantos-api/blob/fe
 
 > `readonly` **externalProviders**: `ExternalProvidersResource`
 
-Defined in: [client.ts:1313](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1313)
+Defined in: [client.ts:1313](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1313)
 
 ***
 
@@ -153,7 +153,7 @@ Defined in: [client.ts:1313](https://github.com/shadmanZero/tenantos-api/blob/fe
 
 > `readonly` **files**: `FilesResource`
 
-Defined in: [client.ts:1314](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1314)
+Defined in: [client.ts:1314](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1314)
 
 ***
 
@@ -161,7 +161,7 @@ Defined in: [client.ts:1314](https://github.com/shadmanZero/tenantos-api/blob/fe
 
 > `readonly` **inventoryComponents**: `InventoryComponentsResource`
 
-Defined in: [client.ts:1316](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1316)
+Defined in: [client.ts:1316](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1316)
 
 ***
 
@@ -169,7 +169,7 @@ Defined in: [client.ts:1316](https://github.com/shadmanZero/tenantos-api/blob/fe
 
 > `readonly` **ipManagement**: `IPManagementResource`
 
-Defined in: [client.ts:1315](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1315)
+Defined in: [client.ts:1315](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1315)
 
 ***
 
@@ -177,7 +177,7 @@ Defined in: [client.ts:1315](https://github.com/shadmanZero/tenantos-api/blob/fe
 
 > `readonly` **networkDevices**: `NetworkDevicesResource`
 
-Defined in: [client.ts:1309](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1309)
+Defined in: [client.ts:1309](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1309)
 
 ***
 
@@ -185,7 +185,7 @@ Defined in: [client.ts:1309](https://github.com/shadmanZero/tenantos-api/blob/fe
 
 > `readonly` **os**: [`OSResource`](OSResource.md)
 
-Defined in: [client.ts:1331](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1331)
+Defined in: [client.ts:1331](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1331)
 
 ***
 
@@ -193,7 +193,7 @@ Defined in: [client.ts:1331](https://github.com/shadmanZero/tenantos-api/blob/fe
 
 > `readonly` **pxeDisklayouts**: [`PXEDisklayoutsResource`](PXEDisklayoutsResource.md)
 
-Defined in: [client.ts:1320](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1320)
+Defined in: [client.ts:1320](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1320)
 
 ***
 
@@ -201,7 +201,7 @@ Defined in: [client.ts:1320](https://github.com/shadmanZero/tenantos-api/blob/fe
 
 > `readonly` **pxeProfiles**: [`PXEProfilesResource`](PXEProfilesResource.md)
 
-Defined in: [client.ts:1318](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1318)
+Defined in: [client.ts:1318](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1318)
 
 ***
 
@@ -209,7 +209,7 @@ Defined in: [client.ts:1318](https://github.com/shadmanZero/tenantos-api/blob/fe
 
 > `readonly` **pxeScripts**: [`PXEScriptsResource`](PXEScriptsResource.md)
 
-Defined in: [client.ts:1319](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1319)
+Defined in: [client.ts:1319](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1319)
 
 ***
 
@@ -217,7 +217,7 @@ Defined in: [client.ts:1319](https://github.com/shadmanZero/tenantos-api/blob/fe
 
 > `readonly` **pxeWindows**: [`PXEWindowsResource`](PXEWindowsResource.md)
 
-Defined in: [client.ts:1321](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1321)
+Defined in: [client.ts:1321](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1321)
 
 ***
 
@@ -225,7 +225,7 @@ Defined in: [client.ts:1321](https://github.com/shadmanZero/tenantos-api/blob/fe
 
 > `readonly` **rdns**: [`RDNSResource`](RDNSResource.md)
 
-Defined in: [client.ts:1323](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1323)
+Defined in: [client.ts:1323](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1323)
 
 ***
 
@@ -233,7 +233,7 @@ Defined in: [client.ts:1323](https://github.com/shadmanZero/tenantos-api/blob/fe
 
 > `readonly` **remoteAgents**: [`RemoteAgentsResource`](RemoteAgentsResource.md)
 
-Defined in: [client.ts:1322](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1322)
+Defined in: [client.ts:1322](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1322)
 
 ***
 
@@ -241,7 +241,7 @@ Defined in: [client.ts:1322](https://github.com/shadmanZero/tenantos-api/blob/fe
 
 > `readonly` **roles**: [`RolesResource`](RolesResource.md)
 
-Defined in: [client.ts:1324](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1324)
+Defined in: [client.ts:1324](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1324)
 
 ***
 
@@ -249,7 +249,7 @@ Defined in: [client.ts:1324](https://github.com/shadmanZero/tenantos-api/blob/fe
 
 > `readonly` **search**: [`SearchResource`](SearchResource.md)
 
-Defined in: [client.ts:1325](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1325)
+Defined in: [client.ts:1325](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1325)
 
 ***
 
@@ -257,7 +257,7 @@ Defined in: [client.ts:1325](https://github.com/shadmanZero/tenantos-api/blob/fe
 
 > `readonly` **servers**: `ServersResource`
 
-Defined in: [client.ts:1308](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1308)
+Defined in: [client.ts:1308](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1308)
 
 ***
 
@@ -265,7 +265,7 @@ Defined in: [client.ts:1308](https://github.com/shadmanZero/tenantos-api/blob/fe
 
 > `readonly` **subnets**: [`SubnetsResource`](SubnetsResource.md)
 
-Defined in: [client.ts:1326](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1326)
+Defined in: [client.ts:1326](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1326)
 
 ***
 
@@ -273,7 +273,7 @@ Defined in: [client.ts:1326](https://github.com/shadmanZero/tenantos-api/blob/fe
 
 > `readonly` **system**: [`SystemResource`](SystemResource.md)
 
-Defined in: [client.ts:1327](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1327)
+Defined in: [client.ts:1327](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1327)
 
 ***
 
@@ -281,7 +281,7 @@ Defined in: [client.ts:1327](https://github.com/shadmanZero/tenantos-api/blob/fe
 
 > `readonly` **tasks**: [`TasksResource`](TasksResource.md)
 
-Defined in: [client.ts:1328](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1328)
+Defined in: [client.ts:1328](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1328)
 
 ***
 
@@ -289,7 +289,7 @@ Defined in: [client.ts:1328](https://github.com/shadmanZero/tenantos-api/blob/fe
 
 > `readonly` **users**: [`UsersResource`](UsersResource.md)
 
-Defined in: [client.ts:1329](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1329)
+Defined in: [client.ts:1329](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1329)
 
 ***
 
@@ -297,7 +297,7 @@ Defined in: [client.ts:1329](https://github.com/shadmanZero/tenantos-api/blob/fe
 
 > `readonly` **vpsPlans**: [`VPSPlansResource`](VPSPlansResource.md)
 
-Defined in: [client.ts:1330](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1330)
+Defined in: [client.ts:1330](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1330)
 
 ## Methods
 
@@ -305,7 +305,7 @@ Defined in: [client.ts:1330](https://github.com/shadmanZero/tenantos-api/blob/fe
 
 > **getConfig**(): `Readonly`\<[`TenantosClientConfig`](../interfaces/TenantosClientConfig.md)\>
 
-Defined in: [client.ts:1587](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1587)
+Defined in: [client.ts:1587](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1587)
 
 Get the client configuration (readonly)
 
@@ -333,7 +333,7 @@ console.log(`Debug mode: ${config.debug}`);
 
 > **getSystemTimezones**(): `Promise`\<`string`[]\>
 
-Defined in: [client.ts:1531](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1531)
+Defined in: [client.ts:1531](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1531)
 
 Get available system timezones
 
@@ -363,7 +363,7 @@ console.log('Available timezones:', timezones);
 
 > **getSystemVersion**(): `Promise`\<[`SystemVersion`](../interfaces/SystemVersion.md)\>
 
-Defined in: [client.ts:1507](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1507)
+Defined in: [client.ts:1507](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1507)
 
 Get system version information
 
@@ -393,7 +393,7 @@ console.log(`TenantOS version: ${version.version}`);
 
 > **ping**(): `Promise`\<`boolean`\>
 
-Defined in: [client.ts:1559](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1559)
+Defined in: [client.ts:1559](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1559)
 
 Test API connectivity and authentication
 
@@ -424,7 +424,7 @@ if (isConnected) {
 
 > **request**\<`T`\>(`config`): `Promise`\<[`ApiResponse`](../interfaces/ApiResponse.md)\<`T`\>\>
 
-Defined in: [client.ts:1433](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/client.ts#L1433)
+Defined in: [client.ts:1433](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/client.ts#L1433)
 
 Make a raw request to the API with automatic retry logic
 

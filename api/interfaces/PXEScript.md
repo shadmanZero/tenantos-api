@@ -6,7 +6,7 @@
 
 # Interface: PXEScript
 
-Defined in: [types.ts:345](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L345)
+Defined in: [types.ts:345](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L345)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:345](https://github.com/shadmanZero/tenantos-api/blob/fe61
 
 > `readonly` **content**: `string`
 
-Defined in: [types.ts:348](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L348)
+Defined in: [types.ts:348](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L348)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:348](https://github.com/shadmanZero/tenantos-api/blob/fe61
 
 > `readonly` **id**: `number`
 
-Defined in: [types.ts:346](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L346)
+Defined in: [types.ts:346](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L346)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:346](https://github.com/shadmanZero/tenantos-api/blob/fe61
 
 > `readonly` **name**: `string`
 
-Defined in: [types.ts:347](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L347)
+Defined in: [types.ts:347](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L347)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [types.ts:347](https://github.com/shadmanZero/tenantos-api/blob/fe61
 
 > `readonly` **type**: `string`
 
-Defined in: [types.ts:349](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L349)
+Defined in: [types.ts:349](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L349)

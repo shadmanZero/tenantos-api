@@ -6,7 +6,7 @@
 
 # Interface: DetailedHardwareInformation
 
-Defined in: [types.ts:249](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L249)
+Defined in: [types.ts:249](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L249)
 
 ## Indexable
 
@@ -18,7 +18,7 @@ Defined in: [types.ts:249](https://github.com/shadmanZero/tenantos-api/blob/fe61
 
 > `readonly` `optional` **cpu**: [`HardwareComponent`](HardwareComponent.md)
 
-Defined in: [types.ts:250](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L250)
+Defined in: [types.ts:250](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L250)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [types.ts:250](https://github.com/shadmanZero/tenantos-api/blob/fe61
 
 > `readonly` `optional` **mainboard**: [`HardwareComponent`](HardwareComponent.md)
 
-Defined in: [types.ts:252](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L252)
+Defined in: [types.ts:252](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L252)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: [types.ts:252](https://github.com/shadmanZero/tenantos-api/blob/fe61
 
 > `readonly` `optional` **memory**: [`HardwareComponent`](HardwareComponent.md)
 
-Defined in: [types.ts:251](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L251)
+Defined in: [types.ts:251](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L251)

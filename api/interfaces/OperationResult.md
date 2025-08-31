@@ -6,7 +6,7 @@
 
 # Interface: OperationResult\<T\>
 
-Defined in: [types.ts:689](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L689)
+Defined in: [types.ts:689](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L689)
 
 ## Type Parameters
 
@@ -20,7 +20,7 @@ Defined in: [types.ts:689](https://github.com/shadmanZero/tenantos-api/blob/fe61
 
 > `readonly` `optional` **data**: `T`
 
-Defined in: [types.ts:691](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L691)
+Defined in: [types.ts:691](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L691)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: [types.ts:691](https://github.com/shadmanZero/tenantos-api/blob/fe61
 
 > `readonly` `optional` **error**: `string`
 
-Defined in: [types.ts:692](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L692)
+Defined in: [types.ts:692](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L692)
 
 ***
 
@@ -36,4 +36,4 @@ Defined in: [types.ts:692](https://github.com/shadmanZero/tenantos-api/blob/fe61
 
 > `readonly` **success**: `boolean`
 
-Defined in: [types.ts:690](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L690)
+Defined in: [types.ts:690](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L690)

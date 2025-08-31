@@ -8,7 +8,7 @@
 
 > **PositiveNumber**\<`T`\> = `T` *extends* `0` ? `never` : `T`
 
-Defined in: [types.ts:684](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L684)
+Defined in: [types.ts:684](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L684)
 
 ## Type Parameters
 

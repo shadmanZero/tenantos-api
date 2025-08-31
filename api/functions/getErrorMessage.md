@@ -8,7 +8,7 @@
 
 > **getErrorMessage**(`error`): `string`
 
-Defined in: [errors.ts:399](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/errors.ts#L399)
+Defined in: [errors.ts:399](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/errors.ts#L399)
 
 Utility function to safely extract error message from unknown error
 

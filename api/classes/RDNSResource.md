@@ -6,7 +6,7 @@
 
 # Class: RDNSResource
 
-Defined in: [resources.ts:617](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L617)
+Defined in: [resources.ts:617](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L617)
 
 Reverse DNS management resource
 
@@ -20,7 +20,7 @@ Reverse DNS management resource
 
 > **new RDNSResource**(`client`): `RDNSResource`
 
-Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L85)
+Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L85)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/f
 
 > `protected` `readonly` **client**: [`TenantosClient`](TenantosClient.md)
 
-Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L85)
+Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L85)
 
 #### Inherited from
 
@@ -54,7 +54,7 @@ Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/f
 
 > `readonly` **providers**: `object`
 
-Defined in: [resources.ts:619](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L619)
+Defined in: [resources.ts:619](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L619)
 
 #### addSubnetAssignment()
 
@@ -213,7 +213,7 @@ PowerDNS
 
 > **createRecord**(`data`): `Promise`\<`void`\>
 
-Defined in: [resources.ts:717](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L717)
+Defined in: [resources.ts:717](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L717)
 
 #### Parameters
 
@@ -231,7 +231,7 @@ Defined in: [resources.ts:717](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **deleteRecord**(`ip`): `Promise`\<`void`\>
 
-Defined in: [resources.ts:733](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L733)
+Defined in: [resources.ts:733](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L733)
 
 #### Parameters
 
@@ -249,7 +249,7 @@ Defined in: [resources.ts:733](https://github.com/shadmanZero/tenantos-api/blob/
 
 > `protected` **request**\<`T`\>(`config`): `Promise`\<[`ApiResponse`](../interfaces/ApiResponse.md)\<`T`\>\>
 
-Defined in: [resources.ts:90](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L90)
+Defined in: [resources.ts:90](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L90)
 
 Make a request to the API with automatic error handling
 
@@ -279,7 +279,7 @@ Make a request to the API with automatic error handling
 
 > **updateRecord**(`data`): `Promise`\<`void`\>
 
-Defined in: [resources.ts:725](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L725)
+Defined in: [resources.ts:725](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L725)
 
 #### Parameters
 
@@ -297,7 +297,7 @@ Defined in: [resources.ts:725](https://github.com/shadmanZero/tenantos-api/blob/
 
 > `protected` **validateId**(`id`, `resourceName`): `void`
 
-Defined in: [resources.ts:97](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L97)
+Defined in: [resources.ts:97](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L97)
 
 Validate that an ID is a positive integer
 
@@ -325,7 +325,7 @@ Validate that an ID is a positive integer
 
 > `protected` **validateRequiredString**(`value`, `fieldName`): `void`
 
-Defined in: [resources.ts:106](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L106)
+Defined in: [resources.ts:106](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L106)
 
 Validate required string field
 

@@ -6,7 +6,7 @@
 
 # Class: SubnetsResource
 
-Defined in: [resources.ts:837](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L837)
+Defined in: [resources.ts:837](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L837)
 
 Subnets management resource
 
@@ -20,7 +20,7 @@ Subnets management resource
 
 > **new SubnetsResource**(`client`): `SubnetsResource`
 
-Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L85)
+Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L85)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/f
 
 > `protected` `readonly` **client**: [`TenantosClient`](TenantosClient.md)
 
-Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L85)
+Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L85)
 
 #### Inherited from
 
@@ -54,7 +54,7 @@ Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/f
 
 > **childsMassActions**(`subnetId`, `data`): `Promise`\<`void`\>
 
-Defined in: [resources.ts:929](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L929)
+Defined in: [resources.ts:929](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L929)
 
 #### Parameters
 
@@ -76,7 +76,7 @@ Defined in: [resources.ts:929](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **create**(`data`): `Promise`\<[`Subnet`](../interfaces/Subnet.md)\>
 
-Defined in: [resources.ts:880](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L880)
+Defined in: [resources.ts:880](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L880)
 
 #### Parameters
 
@@ -500,7 +500,7 @@ true
 
 > **createRdnsAssignment**(`subnet`, `data`): `Promise`\<`void`\>
 
-Defined in: [resources.ts:962](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L962)
+Defined in: [resources.ts:962](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L962)
 
 #### Parameters
 
@@ -522,7 +522,7 @@ Defined in: [resources.ts:962](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **delete**(`id`): `Promise`\<`void`\>
 
-Defined in: [resources.ts:910](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L910)
+Defined in: [resources.ts:910](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L910)
 
 #### Parameters
 
@@ -540,7 +540,7 @@ Defined in: [resources.ts:910](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **deleteRdnsAssignment**(`subnet`): `Promise`\<`void`\>
 
-Defined in: [resources.ts:970](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L970)
+Defined in: [resources.ts:970](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L970)
 
 #### Parameters
 
@@ -558,7 +558,7 @@ Defined in: [resources.ts:970](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **get**(`id`): `Promise`\<[`Subnet`](../interfaces/Subnet.md)\>
 
-Defined in: [resources.ts:850](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L850)
+Defined in: [resources.ts:850](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L850)
 
 #### Parameters
 
@@ -576,7 +576,7 @@ Defined in: [resources.ts:850](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **getRdnsAssignment**(`subnetId`): `Promise`\<`any`\>
 
-Defined in: [resources.ts:951](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L951)
+Defined in: [resources.ts:951](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L951)
 
 #### Parameters
 
@@ -594,7 +594,7 @@ Defined in: [resources.ts:951](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **getWithDetails**(`subnetId`): `Promise`\<[`Subnet`](../interfaces/Subnet.md)\>
 
-Defined in: [resources.ts:865](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L865)
+Defined in: [resources.ts:865](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L865)
 
 #### Parameters
 
@@ -612,7 +612,7 @@ Defined in: [resources.ts:865](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **list**(`options`): `Promise`\<[`Subnet`](../interfaces/Subnet.md)[]\>
 
-Defined in: [resources.ts:838](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L838)
+Defined in: [resources.ts:838](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L838)
 
 #### Parameters
 
@@ -630,7 +630,7 @@ Defined in: [resources.ts:838](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **listFreeIps**(`subnetId`): `Promise`\<`string`[]\>
 
-Defined in: [resources.ts:939](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L939)
+Defined in: [resources.ts:939](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L939)
 
 #### Parameters
 
@@ -648,7 +648,7 @@ Defined in: [resources.ts:939](https://github.com/shadmanZero/tenantos-api/blob/
 
 > `protected` **request**\<`T`\>(`config`): `Promise`\<[`ApiResponse`](../interfaces/ApiResponse.md)\<`T`\>\>
 
-Defined in: [resources.ts:90](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L90)
+Defined in: [resources.ts:90](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L90)
 
 Make a request to the API with automatic error handling
 
@@ -678,7 +678,7 @@ Make a request to the API with automatic error handling
 
 > **split**(`subnetId`, `data`): `Promise`\<`void`\>
 
-Defined in: [resources.ts:919](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L919)
+Defined in: [resources.ts:919](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L919)
 
 #### Parameters
 
@@ -700,7 +700,7 @@ Defined in: [resources.ts:919](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **update**(`id`, `data`): `Promise`\<[`Subnet`](../interfaces/Subnet.md)\>
 
-Defined in: [resources.ts:894](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L894)
+Defined in: [resources.ts:894](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L894)
 
 #### Parameters
 
@@ -722,7 +722,7 @@ Defined in: [resources.ts:894](https://github.com/shadmanZero/tenantos-api/blob/
 
 > `protected` **validateId**(`id`, `resourceName`): `void`
 
-Defined in: [resources.ts:97](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L97)
+Defined in: [resources.ts:97](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L97)
 
 Validate that an ID is a positive integer
 
@@ -750,7 +750,7 @@ Validate that an ID is a positive integer
 
 > `protected` **validateRequiredString**(`value`, `fieldName`): `void`
 
-Defined in: [resources.ts:106](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L106)
+Defined in: [resources.ts:106](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L106)
 
 Validate required string field
 

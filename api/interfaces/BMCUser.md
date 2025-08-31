@@ -6,7 +6,7 @@
 
 # Interface: BMCUser
 
-Defined in: [types.ts:749](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L749)
+Defined in: [types.ts:749](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L749)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:749](https://github.com/shadmanZero/tenantos-api/blob/fe61
 
 > `readonly` **enabled**: `boolean`
 
-Defined in: [types.ts:753](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L753)
+Defined in: [types.ts:753](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L753)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:753](https://github.com/shadmanZero/tenantos-api/blob/fe61
 
 > `readonly` **id**: `number`
 
-Defined in: [types.ts:750](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L750)
+Defined in: [types.ts:750](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L750)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:750](https://github.com/shadmanZero/tenantos-api/blob/fe61
 
 > `readonly` **privilege**: `string`
 
-Defined in: [types.ts:752](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L752)
+Defined in: [types.ts:752](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L752)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [types.ts:752](https://github.com/shadmanZero/tenantos-api/blob/fe61
 
 > `readonly` **username**: `string`
 
-Defined in: [types.ts:751](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L751)
+Defined in: [types.ts:751](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L751)

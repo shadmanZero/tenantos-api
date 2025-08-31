@@ -6,7 +6,7 @@
 
 # Class: RolesResource
 
-Defined in: [resources.ts:745](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L745)
+Defined in: [resources.ts:745](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L745)
 
 Roles management resource (standard roles, not alias roles)
 
@@ -20,7 +20,7 @@ Roles management resource (standard roles, not alias roles)
 
 > **new RolesResource**(`client`): `RolesResource`
 
-Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L85)
+Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L85)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/f
 
 > `protected` `readonly` **client**: [`TenantosClient`](TenantosClient.md)
 
-Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L85)
+Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L85)
 
 #### Inherited from
 
@@ -54,7 +54,7 @@ Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/f
 
 > **create**(`data`): `Promise`\<[`Role`](../interfaces/Role.md)\>
 
-Defined in: [resources.ts:770](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L770)
+Defined in: [resources.ts:770](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L770)
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: [resources.ts:770](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **delete**(`id`): `Promise`\<`void`\>
 
-Defined in: [resources.ts:800](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L800)
+Defined in: [resources.ts:800](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L800)
 
 #### Parameters
 
@@ -90,7 +90,7 @@ Defined in: [resources.ts:800](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **get**(`id`): `Promise`\<[`Role`](../interfaces/Role.md)\>
 
-Defined in: [resources.ts:755](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L755)
+Defined in: [resources.ts:755](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L755)
 
 #### Parameters
 
@@ -108,7 +108,7 @@ Defined in: [resources.ts:755](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **getPermissions**(): `Promise`\<`string`[]\>
 
-Defined in: [resources.ts:809](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L809)
+Defined in: [resources.ts:809](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L809)
 
 #### Returns
 
@@ -120,7 +120,7 @@ Defined in: [resources.ts:809](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **list**(): `Promise`\<[`Role`](../interfaces/Role.md)[]\>
 
-Defined in: [resources.ts:746](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L746)
+Defined in: [resources.ts:746](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L746)
 
 #### Returns
 
@@ -132,7 +132,7 @@ Defined in: [resources.ts:746](https://github.com/shadmanZero/tenantos-api/blob/
 
 > `protected` **request**\<`T`\>(`config`): `Promise`\<[`ApiResponse`](../interfaces/ApiResponse.md)\<`T`\>\>
 
-Defined in: [resources.ts:90](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L90)
+Defined in: [resources.ts:90](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L90)
 
 Make a request to the API with automatic error handling
 
@@ -162,7 +162,7 @@ Make a request to the API with automatic error handling
 
 > **update**(`id`, `data`): `Promise`\<[`Role`](../interfaces/Role.md)\>
 
-Defined in: [resources.ts:784](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L784)
+Defined in: [resources.ts:784](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L784)
 
 #### Parameters
 
@@ -184,7 +184,7 @@ Defined in: [resources.ts:784](https://github.com/shadmanZero/tenantos-api/blob/
 
 > `protected` **validateId**(`id`, `resourceName`): `void`
 
-Defined in: [resources.ts:97](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L97)
+Defined in: [resources.ts:97](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L97)
 
 Validate that an ID is a positive integer
 
@@ -212,7 +212,7 @@ Validate that an ID is a positive integer
 
 > `protected` **validateRequiredString**(`value`, `fieldName`): `void`
 
-Defined in: [resources.ts:106](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/resources.ts#L106)
+Defined in: [resources.ts:106](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/resources.ts#L106)
 
 Validate required string field
 

@@ -6,7 +6,7 @@
 
 # Interface: BatchResult\<T\>
 
-Defined in: [types.ts:701](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L701)
+Defined in: [types.ts:701](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L701)
 
 ## Type Parameters
 
@@ -20,7 +20,7 @@ Defined in: [types.ts:701](https://github.com/shadmanZero/tenantos-api/blob/fe61
 
 > `readonly` **failed**: `object`[]
 
-Defined in: [types.ts:703](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L703)
+Defined in: [types.ts:703](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L703)
 
 #### error
 
@@ -36,4 +36,4 @@ Defined in: [types.ts:703](https://github.com/shadmanZero/tenantos-api/blob/fe61
 
 > `readonly` **successful**: `T`[]
 
-Defined in: [types.ts:702](https://github.com/shadmanZero/tenantos-api/blob/fe61944d7cb3ee6cc3061a8309e45287291cb501/src/types.ts#L702)
+Defined in: [types.ts:702](https://github.com/shadmanZero/tenantos-api/blob/b1ba837cafbeb4e057ec12e90b81a7c5ea5b383f/src/types.ts#L702)

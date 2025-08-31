@@ -1,309 +1,392 @@
-# TenantOS API
+# TenantOS API Client
 
 [![NPM Version](https://img.shields.io/npm/v/tenantos-api.svg)](https://www.npmjs.com/package/tenantos-api)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
 [![License: ISC](https://img.shields.io/badge/License-ISC-yellow.svg)](https://opensource.org/licenses/ISC)
 
-TypeScript API client to manage TenantOS servers and infrastructure.
+A modern, type-safe TypeScript/JavaScript client for the TenantOS API. Manage your bare-metal servers, network devices, and infrastructure with full IntelliSense support and comprehensive error handling.
 
-## 📚 API Documentation
-[Official TenantOS API Docs](https://api.tenantos.com/docs/) | [Type Definitions](./src/types.ts) | [Generated HTML Docs](./docs/api-html/index.html) | [Generated Markdown Docs](./docs/api/README.md)
+## ✨ Why This Client?
 
-## 🎯 API Coverage
-Mapping 100% of available TenantOS API calls based on the [official API documentation](https://api.tenantos.com/docs/). All API endpoints are fully typed with comprehensive TypeScript definitions. Code size < 50KB including complete documentation.
+- 🚀 **Full TypeScript Support** - Complete type definitions with IntelliSense
+- 🔄 **Automatic Retries** - Built-in retry logic for transient failures  
+- 🛡️ **Smart Error Handling** - Specific error types for different scenarios
+- 📚 **100% API Coverage** - All TenantOS endpoints mapped and typed
+- 🎯 **Resource-Based** - Intuitive organization matching the TenantOS structure
+- ⚡ **Lightweight** - Under 50KB with zero external dependencies (except axios)
 
-> **Note**: This wrapper covers all endpoints documented in the [official TenantOS API docs](https://api.tenantos.com/docs/). For detailed API specifications, parameter requirements, and response formats, please refer to the official documentation.
-
-
-## 📖 Overview
-
-To use this API, follow the resource-based structure:
-
-- Use the client's resource properties (e.g., `client.servers`, `client.networkDevices`)
-- Chain method calls for nested resources (e.g., `client.servers.bmcUsers(serverId)`)
-- Call the appropriate HTTP method (`.list()`, `.get()`, `.create()`, `.update()`, `.delete()`)
-- All methods return properly typed responses with full IntelliSense support
-
-The provided TypeScript definitions will assist you with IntelliSense. For complete API reference, consult the [official TenantOS API documentation](https://api.tenantos.com/docs/).
-
-## 📋 Examples
-
-### Server Management
-```typescript
-// List all servers
-const servers = await client.servers.list();
-
-// Get specific server
-const server = await client.servers.get(123);
-
-// Create new server
-const newServer = await client.servers.create({
-  hostname: 'web-server-01.example.com',
-  servername: 'Web Server 01',
-  os: 'Ubuntu 22.04',
-  servertype: 'dedicated'
-});
-
-// Server power operations
-await client.servers.power.on(123);
-await client.servers.power.off(123);
-await client.servers.power.reset(123);
-```
-
-### Server Extensions
-```typescript
-// BMC user management
-const bmcUsers = client.servers.bmcUsers(123);
-await bmcUsers.createUserWithPasswordAndPrivilege({
-  username: 'admin',
-  password: 'secure-password',
-  privilege: 'administrator'
-});
-
-// Server backups
-const backups = client.servers.backups(123);
-await backups.create({ name: 'daily-backup' });
-
-// Server statistics
-const stats = client.servers.statistics(123);
-const networkStats = await stats.getNetworkStats('daily');
-```
-
-### Network Device Management
-```typescript
-// List network devices
-const devices = await client.networkDevices.list();
-
-// Test device connectivity
-const result = await client.networkDevices.testConnectivity(456);
-if (result.success) {
-  console.log('Device is reachable');
-}
-
-// Run custom actions
-await client.networkDevices.runAction(456, 'restart');
-```
-
-### User and Role Management
-```typescript
-// List users
-const users = await client.users.list();
-
-// Create new user
-const newUser = await client.users.create({
-  username: 'john.doe',
-  fullname: 'John Doe',
-  email: 'john.doe@example.com'
-});
-
-// Manage user tokens
-const tokens = client.users.tokens(newUser.userId);
-await tokens.create({ name: 'API Access Token' });
-```
-
-## 💻 Code Sample
-
-[![NPM Version](https://img.shields.io/npm/v/tenantos-api.svg)](https://www.npmjs.com/package/tenantos-api) A complete server management example.
+## 🚀 Quick Start
 
 ```bash
 npm install tenantos-api
 ```
 
 ```typescript
-import { TenantosClient, isTenantosApiError } from 'tenantos-api';
-
-async function manageServers() {
-  // Connect to TenantOS
-  const client = new TenantosClient({
-    baseUrl: 'https://your-tenant.tenantos.com',
-    apiKey: 'your-api-key-here'
-  });
-
-  try {
-    // List all servers
-    const servers = await client.servers.list({
-      filters: { tags: ['production'] },
-      limit: 50
-    });
-
-    // Iterate through servers
-    for (const server of servers) {
-      console.log(`Server: ${server.servername} (${server.hostname})`);
-      console.log(`OS: ${server.os}, Type: ${server.servertype}`);
-      console.log(`Primary IP: ${server.primaryip}`);
-      
-      // Get server statistics
-      const stats = client.servers.statistics(server.id);
-      const networkStats = await stats.getNetworkStats('hourly');
-      console.log(`Network stats: ${networkStats.length} data points`);
-      
-      // Check BMC users
-      const bmcUsers = client.servers.bmcUsers(server.id);
-      const users = await bmcUsers.listUsers();
-      console.log(`BMC Users: ${users.length}`);
-      
-      // Get server inventory
-      const inventory = client.servers.inventory(server.id);
-      const hwSummary = await inventory.getHardwareSummary();
-      console.log(`Hardware: ${JSON.stringify(hwSummary, null, 2)}`);
-    }
-  } catch (error) {
-    if (isTenantosApiError(error)) {
-      console.error(`API Error ${error.statusCode}: ${error.message}`);
-    } else {
-      console.error('Unexpected error:', error);
-    }
-  }
-}
-
-manageServers().catch(console.error);
-```
-
-## 🔧 Initialization Alternatives
-
-### Using Factory Functions
-```typescript
-import { createClient, createClientWithDefaults } from 'tenantos-api';
-
-// With full configuration
-const client = createClient({
-  baseUrl: 'https://your-tenant.tenantos.com',
-  apiKey: 'your-api-key',
-  timeout: 60000,
-  debug: true
-});
-
-// With defaults
-const client = createClientWithDefaults(
-  'https://your-tenant.tenantos.com',
-  'your-api-key'
-);
-```
-
-### Advanced Configuration
-```typescript
 import { TenantosClient } from 'tenantos-api';
 
 const client = new TenantosClient({
   baseUrl: 'https://your-tenant.tenantos.com',
-  apiKey: 'your-api-key',
-  timeout: 30000,
-  debug: true,
-  retry: {
-    attempts: 5,
-    delay: 2000
-  },
-  headers: {
-    'X-Custom-Header': 'custom-value'
-  }
+  apiKey: 'your-api-key-here'
+});
+
+// Get system info
+const version = await client.system.ui.getVersion();
+console.log('Connected to TenantOS:', version);
+
+// List your servers
+const servers = await client.servers.list();
+console.log(`You have ${servers.length} servers`);
+```
+
+## 📚 API Documentation
+
+- 📖 [Official TenantOS API Docs](https://api.tenantos.com/docs/) - Complete API reference
+- 🔍 [Generated HTML Docs](./docs/api-html/index.html) - Browse all classes and methods
+- 📝 [Type Definitions](./src/types.ts) - TypeScript interfaces and types
+
+## 🎯 What's Covered
+
+This client covers **100% of the TenantOS API** based on the [official documentation](https://api.tenantos.com/docs/). Every endpoint is fully typed with comprehensive TypeScript definitions.
+
+**What you can do:**
+
+- 🖥️ **Server Management** - List, create, power control, provisioning
+- 🌐 **Network Devices** - Switches, routers, connectivity testing
+- 👥 **User & Role Management** - Users, permissions, API tokens
+- 📊 **System Monitoring** - Statistics, logs, hardware inventory
+- 🔧 **Advanced Features** - BMC users, backups, snapshots, console access
+
+> 💡 **Tip**: If you're unsure about any parameters, check the [official TenantOS API docs](https://api.tenantos.com/docs/) or perform the action in the TenantOS web interface and inspect the network requests.
+
+## 🏗️ How It Works
+
+The client follows TenantOS's resource-based structure:
+
+1. **Start with the client** - `const client = new TenantosClient(...)`
+2. **Choose a resource** - `client.servers`, `client.networkDevices`, etc.
+3. **Chain methods for nested resources** - `client.servers.bmcUsers(serverId)`
+4. **Call the HTTP method** - `.list()`, `.get()`, `.create()`, `.update()`, `.delete()`
+
+Everything is fully typed, so your IDE will guide you with IntelliSense!
+
+## 💡 Common Examples
+
+### Working with Servers
+
+```typescript
+// List servers with filtering
+const servers = await client.servers.list();
+const prodServers = await client.servers.list({ 
+  filters: { tags: ['production'] },
+  limit: 50 
+});
+
+// Get a specific server
+const server = await client.servers.get(123);
+console.log(`${server.servername} is running ${server.os}`);
+
+// Power management
+await client.servers.power.on(123);
+await client.servers.power.off(123);
+await client.servers.power.reset(123);
+
+// Start a server reinstallation
+await client.servers.provisioning(123).startReinstallation({
+  os_id: 1,
+  type: 'pxe'
 });
 ```
 
-## 🔐 Authentication
-
-The TenantOS API uses API key authentication. Obtain your API key from the TenantOS dashboard.
+### Advanced Server Management
 
 ```typescript
+// BMC user management
+const bmcUsers = client.servers.bmcUsers(123);
+const users = await bmcUsers.listUsers();
+
+await bmcUsers.createUser({
+  username: 'admin',
+  password: 'secure-password123',
+  privilege: 'administrator'
+});
+
+// Get server performance stats
+const stats = client.servers.statistics(123);
+const networkStats = await stats.getNetworkStats('hourly');
+console.log(`Network activity: ${networkStats.length} data points`);
+
+// Hardware inventory
+const inventory = client.servers.inventory(123);
+const hardware = await inventory.getHardwareSummary();
+console.log('Server specs:', hardware);
+```
+
+### Network Device Management
+
+```typescript
+// Find all switches
+const devices = await client.networkDevices.list();
+const switches = await client.networkDevices.list({ 
+  filters: { deviceType: 'switch' } 
+});
+
+// Check if a device is reachable
+const result = await client.networkDevices.testConnectivity(42);
+if (result.success) {
+  console.log('✅ Device is online');
+} else {
+  console.log('❌ Device unreachable:', result.error);
+}
+
+// Execute device actions
+await client.networkDevices.runAction(42, 'reloadConfig');
+```
+
+### User Management
+
+```typescript
+// List all users
+const users = await client.users.list();
+
+// Add a new team member
+const newUser = await client.users.create({
+  username: 'john.doe',
+  fullname: 'John Doe',
+  email: 'john.doe@example.com'
+});
+
+// Create API tokens for the user
+const tokens = client.users.tokens(newUser.userId);
+const apiToken = await tokens.create({ 
+  name: 'Monitoring Script Access' 
+});
+console.log('New API token:', apiToken.token);
+```
+
+## 🔧 Configuration Options
+
+### Basic Setup
+
+```typescript
+import { TenantosClient } from 'tenantos-api';
+
 const client = new TenantosClient({
   baseUrl: 'https://your-tenant.tenantos.com',
   apiKey: 'your-api-key-from-dashboard'
 });
 ```
 
-## 📝 Notes
+### Advanced Configuration
 
-- All API calls are fully typed with TypeScript for the best development experience
-- The client includes automatic retry logic for transient failures
-- Comprehensive error handling with specific error types for different failure scenarios
-- Built-in request/response logging when debug mode is enabled
-- All methods include JSDoc documentation for IntelliSense support
-- Complete API reference available at [api.tenantos.com/docs](https://api.tenantos.com/docs/)
-- If any parameters are unclear, check the [official TenantOS API documentation](https://api.tenantos.com/docs/) or perform the action through the TenantOS web interface and inspect the network requests
+```typescript
+const client = new TenantosClient({
+  baseUrl: 'https://your-tenant.tenantos.com',
+  apiKey: 'your-api-key',
+  
+  // Request timeout (default: 30 seconds)
+  timeout: 60000,
+  
+  // Retry failed requests
+  retry: {
+    attempts: 5,
+    delay: 2000  // 2 seconds between retries
+  },
+  
+  // Debug logging
+  debug: true,
+  
+  // Custom headers
+  headers: {
+    'X-Custom-Header': 'my-value'
+  }
+});
+```
 
-## 🔄 Changelog
+## 🚨 Error Handling
 
-### V1.0.0
-- Initial release with full TenantOS API coverage
-- Complete TypeScript support with comprehensive type definitions
-- Automatic retry logic with configurable backoff
-- Resource-based API organization
-- Comprehensive error handling
-- Request/response interceptors
-- Full JSDoc documentation
-- Server extension resources for advanced server management
-- Network device management
-- User and role management
-- System monitoring and configuration
+The client provides specific error types for different scenarios:
 
-## 📄 License
+```typescript
+import { TenantosClient, isTenantosApiError } from 'tenantos-api';
 
-This TypeScript wrapper library was created by **Salim Shadman** and is released under the **ISC License**. The underlying TenantOS API is managed by TenantOS, but this wrapper is open source and free for anyone to use, modify, and distribute according to the ISC License terms.
+try {
+  const server = await client.servers.get(999);
+} catch (error) {
+  if (isTenantosApiError(error)) {
+    // API returned an error response
+    console.log(`API Error ${error.statusCode}: ${error.getUserMessage()}`);
+    
+    if (error.isStatus(404)) {
+      console.log('Server not found');
+    } else if (error.isStatus(401)) {
+      console.log('Check your API key');
+    }
+  } else {
+    // Network error, timeout, etc.
+    console.log('Unexpected error:', error);
+  }
+}
+```
 
-## 🤝 Contributing
+## 🔐 Getting Your API Key
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+1. Log into your TenantOS dashboard
+2. Go to **Settings** → **API Keys**
+3. Click **Generate New Key**
+4. Copy the key and use it in your client configuration
 
-## 📞 Support
+> ⚠️ **Security**: Never commit API keys to version control. Use environment variables or secure configuration management.
 
-For issues related to this wrapper library, please open an issue on GitHub. For TenantOS API questions, please refer to the [official TenantOS API documentation](https://api.tenantos.com/docs/).
+## 📋 Complete Example
 
----
+Here's a real-world example that demonstrates multiple features:
 
-## Development
+```typescript
+import { TenantosClient, isTenantosApiError } from 'tenantos-api';
+
+async function serverHealthCheck() {
+  const client = new TenantosClient({
+    baseUrl: process.env.TENANTOS_URL!,
+    apiKey: process.env.TENANTOS_API_KEY!,
+    retry: { attempts: 3, delay: 1000 }
+  });
+
+  try {
+    console.log('🔍 Checking server health...');
+    
+    // Get production servers
+    const servers = await client.servers.list({
+      filters: { tags: ['production'] },
+      limit: 100
+    });
+
+    console.log(`Found ${servers.length} production servers`);
+
+    for (const server of servers) {
+      console.log(`\n📊 ${server.servername} (${server.hostname})`);
+      
+      // Check recent network activity
+      const stats = client.servers.statistics(server.id);
+      const networkData = await stats.getNetworkStats('daily');
+      
+      if (networkData.length === 0) {
+        console.log('⚠️  No network activity detected');
+      } else {
+        console.log(`✅ Network active (${networkData.length} data points)`);
+      }
+      
+      // Verify BMC access
+      const bmcUsers = client.servers.bmcUsers(server.id);
+      try {
+        const users = await bmcUsers.listUsers();
+        console.log(`🔧 BMC Users: ${users.length}`);
+      } catch (error) {
+        console.log('❌ BMC access unavailable');
+      }
+      
+      // Hardware summary
+      const inventory = client.servers.inventory(server.id);
+      try {
+        const hardware = await inventory.getHardwareSummary();
+        console.log(`💾 Hardware: ${JSON.stringify(hardware, null, 2)}`);
+      } catch (error) {
+        console.log('ℹ️  Hardware info not available');
+      }
+    }
+    
+    console.log('\n✅ Health check completed!');
+    
+  } catch (error) {
+    if (isTenantosApiError(error)) {
+      console.error(`❌ API Error ${error.statusCode}: ${error.getUserMessage()}`);
+    } else {
+      console.error('❌ Unexpected error:', error);
+    }
+    process.exit(1);
+  }
+}
+
+// Run the health check
+serverHealthCheck();
+```
+
+## 🛠️ Development
+
+Want to contribute or run this locally? Here's how:
 
 ### Prerequisites
 
-- Node.js 18+ (or newer)
-- npm (comes with Node)
+- Node.js 18+
+- npm or yarn
 
-### Install dependencies
-
-```bash
-npm i
-```
-
-### Build the project
+### Setup
 
 ```bash
+# Clone and install
+git clone https://github.com/shadmanZero/tenantos-api.git
+cd tenantos-api
+npm install
+
+# Build the project
 npm run build
+
+# Generate documentation
+npm run docs:api:html    # HTML docs
+npm run docs:api         # Markdown docs
 ```
 
-- Outputs compiled files to `dist/`.
-- Generates type declarations in `dist/`.
+### Project Structure
 
-### Lint and format
+- `src/` - TypeScript source code
+- `dist/` - Compiled JavaScript and type declarations  
+- `docs/` - Generated documentation
+- `examples/` - Usage examples and playground
 
-```bash
-npm run lint
-npm run format
-```
+## 🤝 Contributing
 
-### Local development (ts-node)
+Contributions are welcome! Here's how you can help:
 
-```bash
-npm run start:dev
-```
+1. **🐛 Report bugs** - Open an issue with details and reproduction steps
+2. **💡 Suggest features** - Share ideas for improvements  
+3. **📝 Improve docs** - Fix typos, add examples, clarify explanations
+4. **🔧 Submit PRs** - Fork, create a feature branch, and submit a pull request
 
-### Generate Documentation
+### Development Guidelines
 
-Generate TypeScript documentation for the library:
+- Follow TypeScript best practices
+- Add JSDoc comments for new public methods
+- Include examples in your documentation
+- Test your changes with real TenantOS instances when possible
 
-```bash
-npm run docs:api          # Markdown → docs/api/
-npm run docs:api:html     # HTML → docs/api-html/
-# Optional if you have openapi.yaml
-npm run docs:openapi      # Redoc HTML → docs/openapi/index.html
-```
+## 📞 Support & Questions
 
-### Project structure
+- 🐛 **Library Issues**: [GitHub Issues](https://github.com/shadmanZero/tenantos-api/issues)
+- 📚 **TenantOS API Questions**: [Official TenantOS API Documentation](https://api.tenantos.com/docs/)
+- 💬 **General Help**: Check existing issues or open a new discussion
 
-- `src/` — TypeScript source code
-- `dist/` — Compiled JS and type declarations
-- `docs/api-html/` — Generated HTML API reference
-- `docs/api/` — Generated Markdown API reference
-- `docs/openapi/` — Generated Redoc (if openapi.yaml present)
+## 📄 License
 
-### Notes
+This library is created by **Salim Shadman** and released under the **ISC License**.
 
-- ESLint v9 flat config is used; Prettier is integrated.
-- TypeScript is configured with strict mode and additional strictness flags.
+The TenantOS API itself is managed by TenantOS, but this TypeScript/JavaScript wrapper is open source and free for everyone to use, modify, and distribute.
+
+## ⭐ Show Your Support
+
+If this library helps you manage your TenantOS infrastructure, please:
+
+- ⭐ Star this repository
+- 🐦 Share it with your team
+- 🤝 Contribute improvements
+- 📝 Report issues you encounter
+
+---
+
+**Happy server managing! 🚀**
+
+*Made with ❤️ for the TenantOS community*
+
+---
+
+<div align="center">
+  <sub>Built with TypeScript • Powered by TenantOS • Made for Developers</sub>
+</div>

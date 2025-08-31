@@ -1,6 +1,6 @@
 {
   "name": "tenantos-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Type-safe Node.js/TypeScript client for the TenantOS API.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

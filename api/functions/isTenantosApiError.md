@@ -1,0 +1,23 @@
+[**tenantos-api**](../README.md)
+
+***
+
+[tenantos-api](../globals.md) / isTenantosApiError
+
+# Function: isTenantosApiError()
+
+> **isTenantosApiError**(`error`): `error is TenantosApiError`
+
+Defined in: [errors.ts:341](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/errors.ts#L341)
+
+Type guard to check if an error is a TenantOS API error
+
+## Parameters
+
+### error
+
+`unknown`
+
+## Returns
+
+`error is TenantosApiError`

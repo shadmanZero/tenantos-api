@@ -6,16 +6,16 @@
 
 A modern, type-safe TypeScript/JavaScript client for the TenantOS API. Manage your bare-metal servers, network devices, and infrastructure with full IntelliSense support and comprehensive error handling.
 
-## ✨ Why This Client?
+## Why this client
 
-- 🚀 **Full TypeScript Support** - Complete type definitions with IntelliSense
-- 🔄 **Automatic Retries** - Built-in retry logic for transient failures  
-- 🛡️ **Smart Error Handling** - Specific error types for different scenarios
-- 📚 **100% API Coverage** - All TenantOS endpoints mapped and typed
-- 🎯 **Resource-Based** - Intuitive organization matching the TenantOS structure
-- ⚡ **Lightweight** - Under 50KB with zero external dependencies (except axios)
+- **Full TypeScript support**: Complete type definitions with IntelliSense
+- **Automatic retries**: Built-in retry logic for transient failures
+- **Clear error handling**: Specific error types for different scenarios
+- **Comprehensive coverage**: All TenantOS endpoints mapped and typed
+- **Familiar structure**: Resource-based API matching TenantOS
+- **Lightweight**: Under 50KB; axios is the only runtime dependency
 
-## 🚀 Quick Start
+## Quick start
 
 ```bash
 npm install tenantos-api
@@ -38,27 +38,27 @@ const servers = await client.servers.list();
 console.log(`You have ${servers.length} servers`);
 ```
 
-## 📚 API Documentation
+## Documentation
 
 - 📖 [Official TenantOS API Docs](https://api.tenantos.com/docs/) - Complete API reference
-- 🔍 [Generated HTML Docs](./docs/api-html/index.html) - Browse all classes and methods
-- 📝 [Type Definitions](./src/types.ts) - TypeScript interfaces and types
+- 🔍 [Generated HTML Docs (GitHub Pages)](https://shadmanzero.github.io/tenantos-api/api-html/) - Browse all classes and methods
+- 📝 [Generated Markdown Docs (GitHub Pages)](https://shadmanzero.github.io/tenantos-api/api/) - Same reference in Markdown
 
-## 🎯 What's Covered
+## What’s covered
 
 This client covers **100% of the TenantOS API** based on the [official documentation](https://api.tenantos.com/docs/). Every endpoint is fully typed with comprehensive TypeScript definitions.
 
-**What you can do:**
+What you can do:
 
-- 🖥️ **Server Management** - List, create, power control, provisioning
-- 🌐 **Network Devices** - Switches, routers, connectivity testing
-- 👥 **User & Role Management** - Users, permissions, API tokens
-- 📊 **System Monitoring** - Statistics, logs, hardware inventory
-- 🔧 **Advanced Features** - BMC users, backups, snapshots, console access
+- **Server management**: list, create, power control, provisioning
+- **Network devices**: switches, routers, connectivity testing
+- **Users and roles**: users, permissions, API tokens
+- **System monitoring**: statistics, logs, hardware inventory
+- **Advanced features**: BMC users, backups, snapshots, console access
 
-> 💡 **Tip**: If you're unsure about any parameters, check the [official TenantOS API docs](https://api.tenantos.com/docs/) or perform the action in the TenantOS web interface and inspect the network requests.
+Tip: If you're unsure about any parameters, check the [official TenantOS API docs](https://api.tenantos.com/docs/) or perform the action in the TenantOS web interface and inspect the network requests.
 
-## 🏗️ How It Works
+## How it works
 
 The client follows TenantOS's resource-based structure:
 
@@ -69,7 +69,7 @@ The client follows TenantOS's resource-based structure:
 
 Everything is fully typed, so your IDE will guide you with IntelliSense!
 
-## 💡 Common Examples
+## Examples
 
 ### Working with Servers
 
@@ -133,9 +133,9 @@ const switches = await client.networkDevices.list({
 // Check if a device is reachable
 const result = await client.networkDevices.testConnectivity(42);
 if (result.success) {
-  console.log('✅ Device is online');
+  console.log('Device is online');
 } else {
-  console.log('❌ Device unreachable:', result.error);
+  console.log('Device unreachable:', result.error);
 }
 
 // Execute device actions
@@ -163,7 +163,7 @@ const apiToken = await tokens.create({
 console.log('New API token:', apiToken.token);
 ```
 
-## 🔧 Configuration Options
+## Configuration options
 
 ### Basic Setup
 
@@ -202,7 +202,7 @@ const client = new TenantosClient({
 });
 ```
 
-## 🚨 Error Handling
+## Error handling
 
 The client provides specific error types for different scenarios:
 
@@ -228,7 +228,7 @@ try {
 }
 ```
 
-## 🔐 Getting Your API Key
+## Getting your API key
 
 1. Log into your TenantOS dashboard
 2. Go to **Settings** → **API Keys**
@@ -237,7 +237,7 @@ try {
 
 > ⚠️ **Security**: Never commit API keys to version control. Use environment variables or secure configuration management.
 
-## 📋 Complete Example
+## Complete example
 
 Here's a real-world example that demonstrates multiple features:
 
@@ -252,7 +252,7 @@ async function serverHealthCheck() {
   });
 
   try {
-    console.log('🔍 Checking server health...');
+    console.log('Checking server health...');
     
     // Get production servers
     const servers = await client.servers.list({
@@ -263,44 +263,44 @@ async function serverHealthCheck() {
     console.log(`Found ${servers.length} production servers`);
 
     for (const server of servers) {
-      console.log(`\n📊 ${server.servername} (${server.hostname})`);
+      console.log(`\nServer: ${server.servername} (${server.hostname})`);
       
       // Check recent network activity
       const stats = client.servers.statistics(server.id);
       const networkData = await stats.getNetworkStats('daily');
       
       if (networkData.length === 0) {
-        console.log('⚠️  No network activity detected');
+        console.log('No network activity detected');
       } else {
-        console.log(`✅ Network active (${networkData.length} data points)`);
+        console.log(`Network active (${networkData.length} data points)`);
       }
       
       // Verify BMC access
       const bmcUsers = client.servers.bmcUsers(server.id);
       try {
         const users = await bmcUsers.listUsers();
-        console.log(`🔧 BMC Users: ${users.length}`);
+        console.log(`BMC users: ${users.length}`);
       } catch (error) {
-        console.log('❌ BMC access unavailable');
+        console.log('BMC access unavailable');
       }
       
       // Hardware summary
       const inventory = client.servers.inventory(server.id);
       try {
         const hardware = await inventory.getHardwareSummary();
-        console.log(`💾 Hardware: ${JSON.stringify(hardware, null, 2)}`);
+        console.log(`Hardware: ${JSON.stringify(hardware, null, 2)}`);
       } catch (error) {
-        console.log('ℹ️  Hardware info not available');
+        console.log('Hardware info not available');
       }
     }
     
-    console.log('\n✅ Health check completed!');
+    console.log('\nHealth check completed');
     
   } catch (error) {
     if (isTenantosApiError(error)) {
-      console.error(`❌ API Error ${error.statusCode}: ${error.getUserMessage()}`);
+      console.error(`API error ${error.statusCode}: ${error.getUserMessage()}`);
     } else {
-      console.error('❌ Unexpected error:', error);
+      console.error('Unexpected error:', error);
     }
     process.exit(1);
   }

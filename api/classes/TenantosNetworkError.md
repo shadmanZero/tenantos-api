@@ -6,7 +6,7 @@
 
 # Class: TenantosNetworkError
 
-Defined in: [errors.ts:231](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/errors.ts#L231)
+Defined in: [errors.ts:231](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/errors.ts#L231)
 
 Thrown when network request fails
 
@@ -24,7 +24,7 @@ Thrown when network request fails
 
 > **new TenantosNetworkError**(`message`, `cause?`, `options?`): `TenantosNetworkError`
 
-Defined in: [errors.ts:234](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/errors.ts#L234)
+Defined in: [errors.ts:234](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/errors.ts#L234)
 
 #### Parameters
 
@@ -56,7 +56,7 @@ Defined in: [errors.ts:234](https://github.com/shadmanZero/tenantos-api/blob/1c7
 
 > `readonly` `optional` **cause**: `Error`
 
-Defined in: [errors.ts:236](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/errors.ts#L236)
+Defined in: [errors.ts:236](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/errors.ts#L236)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: [errors.ts:236](https://github.com/shadmanZero/tenantos-api/blob/1c7
 
 > `readonly` **name**: `string` = `'TenantosNetworkError'`
 
-Defined in: [errors.ts:232](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/errors.ts#L232)
+Defined in: [errors.ts:232](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/errors.ts#L232)
 
 #### Overrides
 

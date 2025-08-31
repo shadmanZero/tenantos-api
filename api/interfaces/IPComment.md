@@ -6,7 +6,7 @@
 
 # Interface: IPComment
 
-Defined in: [types.ts:328](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L328)
+Defined in: [types.ts:328](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L328)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:328](https://github.com/shadmanZero/tenantos-api/blob/1c7b
 
 > `readonly` **comment**: `string`
 
-Defined in: [types.ts:330](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L330)
+Defined in: [types.ts:330](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L330)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:330](https://github.com/shadmanZero/tenantos-api/blob/1c7b
 
 > `readonly` **createdAt**: `string`
 
-Defined in: [types.ts:332](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L332)
+Defined in: [types.ts:332](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L332)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:332](https://github.com/shadmanZero/tenantos-api/blob/1c7b
 
 > `readonly` **ip**: `string`
 
-Defined in: [types.ts:329](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L329)
+Defined in: [types.ts:329](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L329)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [types.ts:329](https://github.com/shadmanZero/tenantos-api/blob/1c7b
 
 > `readonly` **userId**: `number`
 
-Defined in: [types.ts:331](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L331)
+Defined in: [types.ts:331](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L331)

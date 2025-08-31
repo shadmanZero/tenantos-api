@@ -6,7 +6,7 @@
 
 # Class: TenantosApiError
 
-Defined in: [errors.ts:110](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/errors.ts#L110)
+Defined in: [errors.ts:110](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/errors.ts#L110)
 
 Thrown when the API returns an error response (4xx or 5xx status codes)
 
@@ -54,7 +54,7 @@ try {
 
 > **new TenantosApiError**(`message`, `statusCode`, `response?`, `requestId?`, `options?`): `TenantosApiError`
 
-Defined in: [errors.ts:122](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/errors.ts#L122)
+Defined in: [errors.ts:122](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/errors.ts#L122)
 
 Creates a new TenantosApiError instance
 
@@ -106,7 +106,7 @@ Additional error options including cause chaining
 
 > `readonly` **name**: `string` = `'TenantosApiError'`
 
-Defined in: [errors.ts:111](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/errors.ts#L111)
+Defined in: [errors.ts:111](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/errors.ts#L111)
 
 #### Overrides
 
@@ -118,7 +118,7 @@ Defined in: [errors.ts:111](https://github.com/shadmanZero/tenantos-api/blob/1c7
 
 > `readonly` `optional` **requestId**: `string`
 
-Defined in: [errors.ts:126](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/errors.ts#L126)
+Defined in: [errors.ts:126](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/errors.ts#L126)
 
 Unique request identifier for tracking (optional)
 
@@ -128,7 +128,7 @@ Unique request identifier for tracking (optional)
 
 > `readonly` `optional` **response**: `unknown`
 
-Defined in: [errors.ts:125](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/errors.ts#L125)
+Defined in: [errors.ts:125](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/errors.ts#L125)
 
 Raw response data from the API (optional)
 
@@ -138,7 +138,7 @@ Raw response data from the API (optional)
 
 > `readonly` **statusCode**: `number`
 
-Defined in: [errors.ts:124](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/errors.ts#L124)
+Defined in: [errors.ts:124](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/errors.ts#L124)
 
 HTTP status code from the response
 
@@ -148,7 +148,7 @@ HTTP status code from the response
 
 > **getUserMessage**(): `string`
 
-Defined in: [errors.ts:208](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/errors.ts#L208)
+Defined in: [errors.ts:208](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/errors.ts#L208)
 
 Get a user-friendly error message based on the HTTP status code
 
@@ -179,7 +179,7 @@ try {
 
 > **isClientError**(): `boolean`
 
-Defined in: [errors.ts:166](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/errors.ts#L166)
+Defined in: [errors.ts:166](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/errors.ts#L166)
 
 Check if this is a client error (4xx status codes)
 
@@ -206,7 +206,7 @@ if (error.isClientError()) {
 
 > **isServerError**(): `boolean`
 
-Defined in: [errors.ts:185](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/errors.ts#L185)
+Defined in: [errors.ts:185](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/errors.ts#L185)
 
 Check if this is a server error (5xx status codes)
 
@@ -233,7 +233,7 @@ if (error.isServerError()) {
 
 > **isStatus**(`code`): `boolean`
 
-Defined in: [errors.ts:147](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/errors.ts#L147)
+Defined in: [errors.ts:147](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/errors.ts#L147)
 
 Check if this error has a specific HTTP status code
 

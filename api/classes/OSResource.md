@@ -6,7 +6,7 @@
 
 # Class: OSResource
 
-Defined in: [resources.ts:1751](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L1751)
+Defined in: [resources.ts:1751](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1751)
 
 OS List resource
 
@@ -20,7 +20,7 @@ OS List resource
 
 > **new OSResource**(`client`): `OSResource`
 
-Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L85)
+Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L85)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/1
 
 > `protected` `readonly` **client**: [`TenantosClient`](TenantosClient.md)
 
-Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L85)
+Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L85)
 
 #### Inherited from
 
@@ -54,7 +54,7 @@ Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/1
 
 > **list**(`data?`): `Promise`\<`any`[]\>
 
-Defined in: [resources.ts:1752](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L1752)
+Defined in: [resources.ts:1752](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1752)
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: [resources.ts:1752](https://github.com/shadmanZero/tenantos-api/blob
 
 > `protected` **request**\<`T`\>(`config`): `Promise`\<[`ApiResponse`](../interfaces/ApiResponse.md)\<`T`\>\>
 
-Defined in: [resources.ts:90](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L90)
+Defined in: [resources.ts:90](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L90)
 
 Make a request to the API with automatic error handling
 
@@ -102,7 +102,7 @@ Make a request to the API with automatic error handling
 
 > `protected` **validateId**(`id`, `resourceName`): `void`
 
-Defined in: [resources.ts:97](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L97)
+Defined in: [resources.ts:97](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L97)
 
 Validate that an ID is a positive integer
 
@@ -130,7 +130,7 @@ Validate that an ID is a positive integer
 
 > `protected` **validateRequiredString**(`value`, `fieldName`): `void`
 
-Defined in: [resources.ts:106](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L106)
+Defined in: [resources.ts:106](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L106)
 
 Validate required string field
 

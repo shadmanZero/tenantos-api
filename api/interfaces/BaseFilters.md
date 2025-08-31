@@ -6,7 +6,7 @@
 
 # Interface: BaseFilters
 
-Defined in: [types.ts:151](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L151)
+Defined in: [types.ts:151](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L151)
 
 ## Extended by
 
@@ -29,4 +29,4 @@ Defined in: [types.ts:151](https://github.com/shadmanZero/tenantos-api/blob/1c7b
 
 > `readonly` `optional` **search**: `string`
 
-Defined in: [types.ts:152](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L152)
+Defined in: [types.ts:152](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L152)

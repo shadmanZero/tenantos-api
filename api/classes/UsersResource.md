@@ -6,7 +6,7 @@
 
 # Class: UsersResource
 
-Defined in: [resources.ts:1223](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L1223)
+Defined in: [resources.ts:1223](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1223)
 
 Users management resource
 
@@ -20,7 +20,7 @@ Users management resource
 
 > **new UsersResource**(`client`): `UsersResource`
 
-Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L85)
+Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L85)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/1
 
 > `protected` `readonly` **client**: [`TenantosClient`](TenantosClient.md)
 
-Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L85)
+Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L85)
 
 #### Inherited from
 
@@ -54,7 +54,7 @@ Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/1
 
 > `readonly` **sshKeys**: `object`
 
-Defined in: [resources.ts:1454](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L1454)
+Defined in: [resources.ts:1454](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1454)
 
 #### create()
 
@@ -152,7 +152,7 @@ Defined in: [resources.ts:1454](https://github.com/shadmanZero/tenantos-api/blob
 
 > `readonly` **tokens**: `object`
 
-Defined in: [resources.ts:1381](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L1381)
+Defined in: [resources.ts:1381](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1381)
 
 #### create()
 
@@ -250,7 +250,7 @@ Defined in: [resources.ts:1381](https://github.com/shadmanZero/tenantos-api/blob
 
 > `readonly` **twoFactor**: `object`
 
-Defined in: [resources.ts:1527](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L1527)
+Defined in: [resources.ts:1527](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1527)
 
 #### disable()
 
@@ -290,7 +290,7 @@ Defined in: [resources.ts:1527](https://github.com/shadmanZero/tenantos-api/blob
 
 > **addAdditionalUserInformation**(`data`): `Promise`\<`void`\>
 
-Defined in: [resources.ts:1342](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L1342)
+Defined in: [resources.ts:1342](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1342)
 
 #### Parameters
 
@@ -308,7 +308,7 @@ Defined in: [resources.ts:1342](https://github.com/shadmanZero/tenantos-api/blob
 
 > **create**(`data`): `Promise`\<[`User`](../interfaces/User.md)\>
 
-Defined in: [resources.ts:1251](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L1251)
+Defined in: [resources.ts:1251](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1251)
 
 #### Parameters
 
@@ -490,7 +490,7 @@ zuskpxhvdkxhnytwumiwzhnehokvxqrvqifveopjgfzjrmiriskpczuxlmajdotbnipbctcgnxqzrcwp
 
 > **delete**(`id`): `Promise`\<`void`\>
 
-Defined in: [resources.ts:1281](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L1281)
+Defined in: [resources.ts:1281](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1281)
 
 #### Parameters
 
@@ -508,7 +508,7 @@ Defined in: [resources.ts:1281](https://github.com/shadmanZero/tenantos-api/blob
 
 > **generateSsoToken**(`user`): `Promise`\<`string`\>
 
-Defined in: [resources.ts:1350](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L1350)
+Defined in: [resources.ts:1350](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1350)
 
 #### Parameters
 
@@ -526,7 +526,7 @@ Defined in: [resources.ts:1350](https://github.com/shadmanZero/tenantos-api/blob
 
 > **get**(`id`): `Promise`\<[`User`](../interfaces/User.md)\>
 
-Defined in: [resources.ts:1236](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L1236)
+Defined in: [resources.ts:1236](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1236)
 
 #### Parameters
 
@@ -544,7 +544,7 @@ Defined in: [resources.ts:1236](https://github.com/shadmanZero/tenantos-api/blob
 
 > **getAccessLog**(`userId`): `Promise`\<`any`[]\>
 
-Defined in: [resources.ts:1314](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L1314)
+Defined in: [resources.ts:1314](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1314)
 
 #### Parameters
 
@@ -562,7 +562,7 @@ Defined in: [resources.ts:1314](https://github.com/shadmanZero/tenantos-api/blob
 
 > **getCurrentUser**(): `Promise`\<[`User`](../interfaces/User.md)\>
 
-Defined in: [resources.ts:1290](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L1290)
+Defined in: [resources.ts:1290](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1290)
 
 #### Returns
 
@@ -574,7 +574,7 @@ Defined in: [resources.ts:1290](https://github.com/shadmanZero/tenantos-api/blob
 
 > **getLoginHistory**(`userId`): `Promise`\<`any`[]\>
 
-Defined in: [resources.ts:1303](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L1303)
+Defined in: [resources.ts:1303](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1303)
 
 #### Parameters
 
@@ -592,7 +592,7 @@ Defined in: [resources.ts:1303](https://github.com/shadmanZero/tenantos-api/blob
 
 > **list**(`options`): `Promise`\<[`User`](../interfaces/User.md)[]\>
 
-Defined in: [resources.ts:1224](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L1224)
+Defined in: [resources.ts:1224](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1224)
 
 #### Parameters
 
@@ -610,7 +610,7 @@ Defined in: [resources.ts:1224](https://github.com/shadmanZero/tenantos-api/blob
 
 > `protected` **request**\<`T`\>(`config`): `Promise`\<[`ApiResponse`](../interfaces/ApiResponse.md)\<`T`\>\>
 
-Defined in: [resources.ts:90](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L90)
+Defined in: [resources.ts:90](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L90)
 
 Make a request to the API with automatic error handling
 
@@ -640,7 +640,7 @@ Make a request to the API with automatic error handling
 
 > **startImpersonation**(`impersonateUserId`): `Promise`\<`void`\>
 
-Defined in: [resources.ts:1362](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L1362)
+Defined in: [resources.ts:1362](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1362)
 
 #### Parameters
 
@@ -658,7 +658,7 @@ Defined in: [resources.ts:1362](https://github.com/shadmanZero/tenantos-api/blob
 
 > **stopImpersonation**(`impersonateUserId`): `Promise`\<`void`\>
 
-Defined in: [resources.ts:1371](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L1371)
+Defined in: [resources.ts:1371](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1371)
 
 #### Parameters
 
@@ -676,7 +676,7 @@ Defined in: [resources.ts:1371](https://github.com/shadmanZero/tenantos-api/blob
 
 > **testLoginDetails**(`data`): `Promise`\<[`OperationResult`](../interfaces/OperationResult.md)\<`unknown`\>\>
 
-Defined in: [resources.ts:1325](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L1325)
+Defined in: [resources.ts:1325](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1325)
 
 #### Parameters
 
@@ -694,7 +694,7 @@ Defined in: [resources.ts:1325](https://github.com/shadmanZero/tenantos-api/blob
 
 > **update**(`id`, `data`): `Promise`\<[`User`](../interfaces/User.md)\>
 
-Defined in: [resources.ts:1265](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L1265)
+Defined in: [resources.ts:1265](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L1265)
 
 #### Parameters
 
@@ -716,7 +716,7 @@ Defined in: [resources.ts:1265](https://github.com/shadmanZero/tenantos-api/blob
 
 > `protected` **validateId**(`id`, `resourceName`): `void`
 
-Defined in: [resources.ts:97](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L97)
+Defined in: [resources.ts:97](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L97)
 
 Validate that an ID is a positive integer
 
@@ -744,7 +744,7 @@ Validate that an ID is a positive integer
 
 > `protected` **validateRequiredString**(`value`, `fieldName`): `void`
 
-Defined in: [resources.ts:106](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L106)
+Defined in: [resources.ts:106](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L106)
 
 Validate required string field
 

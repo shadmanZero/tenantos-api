@@ -6,7 +6,7 @@
 
 # Interface: PaginationOptions
 
-Defined in: [types.ts:144](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L144)
+Defined in: [types.ts:144](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L144)
 
 ## Extended by
 
@@ -18,7 +18,7 @@ Defined in: [types.ts:144](https://github.com/shadmanZero/tenantos-api/blob/1c7b
 
 > `readonly` `optional` **limit**: `number`
 
-Defined in: [types.ts:146](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L146)
+Defined in: [types.ts:146](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L146)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [types.ts:146](https://github.com/shadmanZero/tenantos-api/blob/1c7b
 
 > `readonly` `optional` **offset**: `number`
 
-Defined in: [types.ts:147](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L147)
+Defined in: [types.ts:147](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L147)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: [types.ts:147](https://github.com/shadmanZero/tenantos-api/blob/1c7b
 
 > `readonly` `optional` **page**: `number`
 
-Defined in: [types.ts:145](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L145)
+Defined in: [types.ts:145](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L145)

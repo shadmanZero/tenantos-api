@@ -6,7 +6,7 @@
 
 # Class: PXEDisklayoutsResource
 
-Defined in: [resources.ts:337](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L337)
+Defined in: [resources.ts:337](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L337)
 
 PXE Disklayouts management resource
 
@@ -20,7 +20,7 @@ PXE Disklayouts management resource
 
 > **new PXEDisklayoutsResource**(`client`): `PXEDisklayoutsResource`
 
-Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L85)
+Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L85)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/1
 
 > `protected` `readonly` **client**: [`TenantosClient`](TenantosClient.md)
 
-Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L85)
+Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L85)
 
 #### Inherited from
 
@@ -54,7 +54,7 @@ Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/1
 
 > **create**(`data`): `Promise`\<[`PXEDisklayout`](../interfaces/PXEDisklayout.md)\>
 
-Defined in: [resources.ts:362](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L362)
+Defined in: [resources.ts:362](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L362)
 
 #### Parameters
 
@@ -216,7 +216,7 @@ Must have at least 1 item. The disk layout is linked to the operating systems vi
 
 > **delete**(`id`): `Promise`\<`void`\>
 
-Defined in: [resources.ts:392](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L392)
+Defined in: [resources.ts:392](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L392)
 
 #### Parameters
 
@@ -234,7 +234,7 @@ Defined in: [resources.ts:392](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **duplicate**(`pxeDisklayoutId`): `Promise`\<[`PXEDisklayout`](../interfaces/PXEDisklayout.md)\>
 
-Defined in: [resources.ts:401](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L401)
+Defined in: [resources.ts:401](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L401)
 
 #### Parameters
 
@@ -252,7 +252,7 @@ Defined in: [resources.ts:401](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **get**(`id`): `Promise`\<[`PXEDisklayout`](../interfaces/PXEDisklayout.md)\>
 
-Defined in: [resources.ts:347](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L347)
+Defined in: [resources.ts:347](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L347)
 
 #### Parameters
 
@@ -270,7 +270,7 @@ Defined in: [resources.ts:347](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **list**(): `Promise`\<[`PXEDisklayout`](../interfaces/PXEDisklayout.md)[]\>
 
-Defined in: [resources.ts:338](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L338)
+Defined in: [resources.ts:338](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L338)
 
 #### Returns
 
@@ -282,7 +282,7 @@ Defined in: [resources.ts:338](https://github.com/shadmanZero/tenantos-api/blob/
 
 > `protected` **request**\<`T`\>(`config`): `Promise`\<[`ApiResponse`](../interfaces/ApiResponse.md)\<`T`\>\>
 
-Defined in: [resources.ts:90](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L90)
+Defined in: [resources.ts:90](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L90)
 
 Make a request to the API with automatic error handling
 
@@ -312,7 +312,7 @@ Make a request to the API with automatic error handling
 
 > **update**(`id`, `data`): `Promise`\<[`PXEDisklayout`](../interfaces/PXEDisklayout.md)\>
 
-Defined in: [resources.ts:376](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L376)
+Defined in: [resources.ts:376](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L376)
 
 #### Parameters
 
@@ -334,7 +334,7 @@ Defined in: [resources.ts:376](https://github.com/shadmanZero/tenantos-api/blob/
 
 > `protected` **validateId**(`id`, `resourceName`): `void`
 
-Defined in: [resources.ts:97](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L97)
+Defined in: [resources.ts:97](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L97)
 
 Validate that an ID is a positive integer
 
@@ -362,7 +362,7 @@ Validate that an ID is a positive integer
 
 > `protected` **validateRequiredString**(`value`, `fieldName`): `void`
 
-Defined in: [resources.ts:106](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/resources.ts#L106)
+Defined in: [resources.ts:106](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/resources.ts#L106)
 
 Validate required string field
 

@@ -6,7 +6,7 @@
 
 # Interface: ApiResponse\<T\>
 
-Defined in: [types.ts:136](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L136)
+Defined in: [types.ts:136](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L136)
 
 Standard API response wrapper
 
@@ -27,7 +27,7 @@ The type of the result data
 
 > `readonly` `optional` **message**: `string`
 
-Defined in: [types.ts:140](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L140)
+Defined in: [types.ts:140](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L140)
 
 Optional message from the server
 
@@ -37,6 +37,6 @@ Optional message from the server
 
 > `readonly` `optional` **result**: `T`
 
-Defined in: [types.ts:138](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L138)
+Defined in: [types.ts:138](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L138)
 
 The actual response data (if successful)

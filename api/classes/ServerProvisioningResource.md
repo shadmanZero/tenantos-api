@@ -6,7 +6,7 @@
 
 # Class: ServerProvisioningResource
 
-Defined in: [server-extensions.ts:833](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/server-extensions.ts#L833)
+Defined in: [server-extensions.ts:833](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L833)
 
 Server OS Provisioning resource
 
@@ -20,7 +20,7 @@ Server OS Provisioning resource
 
 > **new ServerProvisioningResource**(`client`, `serverId`): `ServerProvisioningResource`
 
-Defined in: [server-extensions.ts:834](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/server-extensions.ts#L834)
+Defined in: [server-extensions.ts:834](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L834)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [server-extensions.ts:834](https://github.com/shadmanZero/tenantos-a
 
 > `protected` `readonly` **client**: [`TenantosClient`](TenantosClient.md)
 
-Defined in: [server-extensions.ts:77](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/server-extensions.ts#L77)
+Defined in: [server-extensions.ts:77](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L77)
 
 #### Inherited from
 
@@ -58,7 +58,7 @@ Defined in: [server-extensions.ts:77](https://github.com/shadmanZero/tenantos-ap
 
 > **executePostCommand**(): `Promise`\<`any`\>
 
-Defined in: [server-extensions.ts:862](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/server-extensions.ts#L862)
+Defined in: [server-extensions.ts:862](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L862)
 
 #### Returns
 
@@ -70,7 +70,7 @@ Defined in: [server-extensions.ts:862](https://github.com/shadmanZero/tenantos-a
 
 > **getInstallStatus**(): `Promise`\<`any`\>
 
-Defined in: [server-extensions.ts:853](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/server-extensions.ts#L853)
+Defined in: [server-extensions.ts:853](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L853)
 
 #### Returns
 
@@ -82,7 +82,7 @@ Defined in: [server-extensions.ts:853](https://github.com/shadmanZero/tenantos-a
 
 > **getOsLogo**(`data`): `Promise`\<`any`\>
 
-Defined in: [server-extensions.ts:880](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/server-extensions.ts#L880)
+Defined in: [server-extensions.ts:880](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L880)
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: [server-extensions.ts:880](https://github.com/shadmanZero/tenantos-a
 
 > **getProfiles**(): `Promise`\<`any`[]\>
 
-Defined in: [server-extensions.ts:871](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/server-extensions.ts#L871)
+Defined in: [server-extensions.ts:871](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L871)
 
 #### Returns
 
@@ -112,7 +112,7 @@ Defined in: [server-extensions.ts:871](https://github.com/shadmanZero/tenantos-a
 
 > `protected` **request**\<`T`\>(`config`): `Promise`\<[`ApiResponse`](../interfaces/ApiResponse.md)\<`T`\>\>
 
-Defined in: [server-extensions.ts:82](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/server-extensions.ts#L82)
+Defined in: [server-extensions.ts:82](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L82)
 
 Make a request to the API with automatic error handling
 
@@ -142,7 +142,7 @@ Make a request to the API with automatic error handling
 
 > **startReinstallation**(`data`): `Promise`\<`void`\>
 
-Defined in: [server-extensions.ts:838](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/server-extensions.ts#L838)
+Defined in: [server-extensions.ts:838](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L838)
 
 #### Parameters
 
@@ -160,7 +160,7 @@ Defined in: [server-extensions.ts:838](https://github.com/shadmanZero/tenantos-a
 
 > **stopReinstallation**(): `Promise`\<`void`\>
 
-Defined in: [server-extensions.ts:846](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/server-extensions.ts#L846)
+Defined in: [server-extensions.ts:846](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L846)
 
 #### Returns
 
@@ -172,7 +172,7 @@ Defined in: [server-extensions.ts:846](https://github.com/shadmanZero/tenantos-a
 
 > `protected` **validateId**(`id`, `resourceName`): `void`
 
-Defined in: [server-extensions.ts:89](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/server-extensions.ts#L89)
+Defined in: [server-extensions.ts:89](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L89)
 
 Validate that an ID is a positive integer
 
@@ -200,7 +200,7 @@ Validate that an ID is a positive integer
 
 > `protected` **validateRequiredString**(`value`, `fieldName`): `void`
 
-Defined in: [server-extensions.ts:98](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/server-extensions.ts#L98)
+Defined in: [server-extensions.ts:98](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/server-extensions.ts#L98)
 
 Validate required string field
 

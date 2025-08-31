@@ -6,7 +6,7 @@
 
 # Interface: User
 
-Defined in: [types.ts:265](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L265)
+Defined in: [types.ts:265](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L265)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:265](https://github.com/shadmanZero/tenantos-api/blob/1c7b
 
 > `readonly` **fullname**: `string`
 
-Defined in: [types.ts:267](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L267)
+Defined in: [types.ts:267](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L267)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:267](https://github.com/shadmanZero/tenantos-api/blob/1c7b
 
 > `readonly` **userId**: `number`
 
-Defined in: [types.ts:266](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L266)
+Defined in: [types.ts:266](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L266)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: [types.ts:266](https://github.com/shadmanZero/tenantos-api/blob/1c7b
 
 > `readonly` **username**: `string`
 
-Defined in: [types.ts:268](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L268)
+Defined in: [types.ts:268](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L268)

@@ -8,7 +8,7 @@
 
 > **isTenantosConfigError**(`error`): `error is TenantosConfigError`
 
-Defined in: [errors.ts:362](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/errors.ts#L362)
+Defined in: [errors.ts:362](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/errors.ts#L362)
 
 Type guard to check if an error is a configuration error
 

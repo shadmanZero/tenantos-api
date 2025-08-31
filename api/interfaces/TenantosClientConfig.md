@@ -6,7 +6,7 @@
 
 # Interface: TenantosClientConfig
 
-Defined in: [types.ts:58](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L58)
+Defined in: [types.ts:58](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L58)
 
 Configuration interface for TenantOS API client
 
@@ -35,7 +35,7 @@ const config: TenantosClientConfig = {
 
 > `readonly` **apiKey**: `string`
 
-Defined in: [types.ts:69](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L69)
+Defined in: [types.ts:69](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L69)
 
 API authentication token - obtain this from your TenantOS dashboard
 
@@ -51,7 +51,7 @@ API authentication token - obtain this from your TenantOS dashboard
 
 > `readonly` **baseUrl**: `string`
 
-Defined in: [types.ts:63](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L63)
+Defined in: [types.ts:63](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L63)
 
 Base URL of your TenantOS instance
 
@@ -67,7 +67,7 @@ Base URL of your TenantOS instance
 
 > `readonly` `optional` **debug**: `boolean`
 
-Defined in: [types.ts:89](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L89)
+Defined in: [types.ts:89](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L89)
 
 Enable debug logging for requests and responses
 
@@ -83,7 +83,7 @@ false
 
 > `readonly` `optional` **headers**: `Readonly`\<`Record`\<`string`, `string`\>\>
 
-Defined in: [types.ts:83](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L83)
+Defined in: [types.ts:83](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L83)
 
 Custom headers to include with every request
 Useful for adding custom authentication or tracking headers
@@ -94,7 +94,7 @@ Useful for adding custom authentication or tracking headers
 
 > `readonly` `optional` **retry**: `object`
 
-Defined in: [types.ts:95](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L95)
+Defined in: [types.ts:95](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L95)
 
 Retry configuration for failed requests
 Only retryable errors (network issues, 5xx responses) will be retried
@@ -117,7 +117,7 @@ Delay between retries in milliseconds (0-30000)
 
 > `readonly` `optional` **timeout**: `number`
 
-Defined in: [types.ts:77](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L77)
+Defined in: [types.ts:77](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L77)
 
 Request timeout in milliseconds
 

@@ -6,7 +6,7 @@
 
 # Interface: ServerSnapshot
 
-Defined in: [types.ts:508](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L508)
+Defined in: [types.ts:508](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L508)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:508](https://github.com/shadmanZero/tenantos-api/blob/1c7b
 
 > `readonly` **createdAt**: `string`
 
-Defined in: [types.ts:512](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L512)
+Defined in: [types.ts:512](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L512)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:512](https://github.com/shadmanZero/tenantos-api/blob/1c7b
 
 > `readonly` `optional` **description**: `string`
 
-Defined in: [types.ts:513](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L513)
+Defined in: [types.ts:513](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L513)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:513](https://github.com/shadmanZero/tenantos-api/blob/1c7b
 
 > `readonly` **id**: `string`
 
-Defined in: [types.ts:509](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L509)
+Defined in: [types.ts:509](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L509)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [types.ts:509](https://github.com/shadmanZero/tenantos-api/blob/1c7b
 
 > `readonly` **name**: `string`
 
-Defined in: [types.ts:510](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L510)
+Defined in: [types.ts:510](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L510)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: [types.ts:510](https://github.com/shadmanZero/tenantos-api/blob/1c7b
 
 > `readonly` **size**: `number`
 
-Defined in: [types.ts:511](https://github.com/shadmanZero/tenantos-api/blob/1c7b7035084787c8e7500a348d67d47efa9ca53a/src/types.ts#L511)
+Defined in: [types.ts:511](https://github.com/shadmanZero/tenantos-api/blob/50bbdae310005a0ca12345f143ddaf8ea2b8ce90/src/types.ts#L511)

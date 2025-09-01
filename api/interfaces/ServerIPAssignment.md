@@ -6,7 +6,7 @@
 
 # Interface: ServerIPAssignment
 
-Defined in: [types.ts:487](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L487)
+Defined in: [types.ts:487](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L487)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:487](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` `optional` **id**: `number`
 
-Defined in: [types.ts:488](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L488)
+Defined in: [types.ts:488](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L488)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:488](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` **ip**: `string`
 
-Defined in: [types.ts:489](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L489)
+Defined in: [types.ts:489](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L489)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:489](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` `optional` **ipAttributes**: `object`
 
-Defined in: [types.ts:495](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L495)
+Defined in: [types.ts:495](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L495)
 
 #### isIpv4
 
@@ -50,7 +50,7 @@ Defined in: [types.ts:495](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` `optional` **primary\_ip**: `number`
 
-Defined in: [types.ts:494](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L494)
+Defined in: [types.ts:494](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L494)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [types.ts:494](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` `optional` **rdnsHostname**: `string`
 
-Defined in: [types.ts:492](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L492)
+Defined in: [types.ts:492](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L492)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: [types.ts:492](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` `optional` **subnet**: `string`
 
-Defined in: [types.ts:490](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L490)
+Defined in: [types.ts:490](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L490)
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: [types.ts:490](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` `optional` **subnetinformation**: `object`
 
-Defined in: [types.ts:500](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L500)
+Defined in: [types.ts:500](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L500)
 
 #### cidr?
 
@@ -122,7 +122,7 @@ Defined in: [types.ts:500](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` `optional` **type**: `"primary"` \| `"secondary"`
 
-Defined in: [types.ts:491](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L491)
+Defined in: [types.ts:491](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L491)
 
 ***
 
@@ -130,4 +130,4 @@ Defined in: [types.ts:491](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` `optional` **updated\_at**: `string`
 
-Defined in: [types.ts:493](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L493)
+Defined in: [types.ts:493](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L493)

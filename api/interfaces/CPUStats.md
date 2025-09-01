@@ -6,7 +6,7 @@
 
 # Interface: CPUStats
 
-Defined in: [types.ts:755](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L755)
+Defined in: [types.ts:755](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L755)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:755](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` **cores**: `number`
 
-Defined in: [types.ts:758](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L758)
+Defined in: [types.ts:758](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L758)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:758](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` **timestamp**: `string`
 
-Defined in: [types.ts:756](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L756)
+Defined in: [types.ts:756](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L756)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: [types.ts:756](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` **usage**: `number`
 
-Defined in: [types.ts:757](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L757)
+Defined in: [types.ts:757](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L757)

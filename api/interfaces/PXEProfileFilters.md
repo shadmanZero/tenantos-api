@@ -6,7 +6,7 @@
 
 # Interface: PXEProfileFilters
 
-Defined in: [types.ts:194](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L194)
+Defined in: [types.ts:194](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L194)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [types.ts:194](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` `optional` **bootType**: `string`
 
-Defined in: [types.ts:196](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L196)
+Defined in: [types.ts:196](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L196)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [types.ts:196](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` `optional` **osType**: `string`
 
-Defined in: [types.ts:195](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L195)
+Defined in: [types.ts:195](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L195)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [types.ts:195](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` `optional` **search**: `string`
 
-Defined in: [types.ts:152](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L152)
+Defined in: [types.ts:152](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L152)
 
 #### Inherited from
 

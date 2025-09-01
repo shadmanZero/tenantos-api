@@ -6,7 +6,7 @@
 
 # Interface: BrandFilters
 
-Defined in: [types.ts:180](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L180)
+Defined in: [types.ts:180](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L180)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [types.ts:180](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` `optional` **name**: `string`
 
-Defined in: [types.ts:181](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L181)
+Defined in: [types.ts:181](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L181)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [types.ts:181](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` `optional` **search**: `string`
 
-Defined in: [types.ts:152](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L152)
+Defined in: [types.ts:152](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L152)
 
 #### Inherited from
 

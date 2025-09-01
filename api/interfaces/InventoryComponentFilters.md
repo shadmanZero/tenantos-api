@@ -6,7 +6,7 @@
 
 # Interface: InventoryComponentFilters
 
-Defined in: [types.ts:189](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L189)
+Defined in: [types.ts:189](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L189)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [types.ts:189](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` `optional` **groupname**: `string`
 
-Defined in: [types.ts:190](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L190)
+Defined in: [types.ts:190](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L190)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [types.ts:190](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` `optional` **search**: `string`
 
-Defined in: [types.ts:152](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L152)
+Defined in: [types.ts:152](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L152)
 
 #### Inherited from
 
@@ -38,4 +38,4 @@ Defined in: [types.ts:152](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` `optional` **valueType**: `string`
 
-Defined in: [types.ts:191](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L191)
+Defined in: [types.ts:191](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L191)

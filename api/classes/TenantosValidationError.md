@@ -6,7 +6,7 @@
 
 # Class: TenantosValidationError
 
-Defined in: [errors.ts:268](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/errors.ts#L268)
+Defined in: [errors.ts:268](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/errors.ts#L268)
 
 Thrown when required parameters are missing or invalid
 
@@ -20,7 +20,7 @@ Thrown when required parameters are missing or invalid
 
 > **new TenantosValidationError**(`message`, `field?`, `value?`, `options?`): `TenantosValidationError`
 
-Defined in: [errors.ts:271](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/errors.ts#L271)
+Defined in: [errors.ts:271](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/errors.ts#L271)
 
 #### Parameters
 
@@ -56,7 +56,7 @@ Defined in: [errors.ts:271](https://github.com/shadmanZero/tenantos-api/blob/a30
 
 > `readonly` `optional` **field**: `string`
 
-Defined in: [errors.ts:273](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/errors.ts#L273)
+Defined in: [errors.ts:273](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/errors.ts#L273)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: [errors.ts:273](https://github.com/shadmanZero/tenantos-api/blob/a30
 
 > `readonly` **name**: `string` = `'TenantosValidationError'`
 
-Defined in: [errors.ts:269](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/errors.ts#L269)
+Defined in: [errors.ts:269](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/errors.ts#L269)
 
 #### Overrides
 
@@ -76,4 +76,4 @@ Defined in: [errors.ts:269](https://github.com/shadmanZero/tenantos-api/blob/a30
 
 > `readonly` `optional` **value**: `unknown`
 
-Defined in: [errors.ts:274](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/errors.ts#L274)
+Defined in: [errors.ts:274](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/errors.ts#L274)

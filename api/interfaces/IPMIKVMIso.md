@@ -6,7 +6,7 @@
 
 # Interface: IPMIKVMIso
 
-Defined in: [types.ts:372](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L372)
+Defined in: [types.ts:372](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L372)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:372](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` **filename**: `string`
 
-Defined in: [types.ts:375](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L375)
+Defined in: [types.ts:375](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L375)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:375](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` **id**: `number`
 
-Defined in: [types.ts:373](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L373)
+Defined in: [types.ts:373](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L373)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:373](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` **name**: `string`
 
-Defined in: [types.ts:374](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L374)
+Defined in: [types.ts:374](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L374)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [types.ts:374](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` **size**: `number`
 
-Defined in: [types.ts:376](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L376)
+Defined in: [types.ts:376](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L376)

@@ -6,7 +6,7 @@
 
 # Interface: RDNSProvider
 
-Defined in: [types.ts:380](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L380)
+Defined in: [types.ts:380](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L380)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:380](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` **config**: `Record`\<`string`, `unknown`\>
 
-Defined in: [types.ts:384](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L384)
+Defined in: [types.ts:384](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L384)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:384](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` **id**: `number`
 
-Defined in: [types.ts:381](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L381)
+Defined in: [types.ts:381](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L381)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:381](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` **name**: `string`
 
-Defined in: [types.ts:382](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L382)
+Defined in: [types.ts:382](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L382)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [types.ts:382](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` **type**: `string`
 
-Defined in: [types.ts:383](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L383)
+Defined in: [types.ts:383](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L383)

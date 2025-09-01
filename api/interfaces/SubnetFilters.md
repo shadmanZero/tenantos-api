@@ -6,7 +6,7 @@
 
 # Interface: SubnetFilters
 
-Defined in: [types.ts:203](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L203)
+Defined in: [types.ts:203](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L203)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [types.ts:203](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` `optional` **network**: `string`
 
-Defined in: [types.ts:204](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L204)
+Defined in: [types.ts:204](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L204)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [types.ts:204](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` `optional` **search**: `string`
 
-Defined in: [types.ts:152](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L152)
+Defined in: [types.ts:152](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L152)
 
 #### Inherited from
 
@@ -38,4 +38,4 @@ Defined in: [types.ts:152](https://github.com/shadmanZero/tenantos-api/blob/a306
 
 > `readonly` `optional` **vlanId**: `number`
 
-Defined in: [types.ts:205](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L205)
+Defined in: [types.ts:205](https://github.com/shadmanZero/tenantos-api/blob/507575e6d82ab5e3b8a10f708778a3645f250cd6/src/types.ts#L205)

@@ -17,9 +17,25 @@ A modern, type-safe TypeScript/JavaScript client for the TenantOS API. Manage yo
 
 ## Quick start
 
+### Install from npm (recommended)
+
 ```bash
 npm install tenantos-api
 ```
+
+### Install from GitHub Packages
+
+If you prefer to install from GitHub Packages:
+
+```bash
+# First, configure npm to use GitHub Packages for @shadmanZero scope
+echo "@shadmanZero:registry=https://npm.pkg.github.com" >> ~/.npmrc
+
+# Then install the package
+npm install @shadmanZero/tenantos-api
+```
+
+**Note**: When installing from GitHub Packages, you'll need to authenticate with a GitHub personal access token. See the [GitHub Packages Authentication](#github-packages-authentication) section below.
 
 ```typescript
 import { TenantosClient } from 'tenantos-api';
@@ -236,6 +252,42 @@ try {
 4. Copy the key and use it in your client configuration
 
 > ⚠️ **Security**: Never commit API keys to version control. Use environment variables or secure configuration management.
+
+## GitHub Packages Authentication
+
+If you're installing from GitHub Packages, you'll need to authenticate with a GitHub personal access token:
+
+### 1. Create a Personal Access Token
+
+1. Go to GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic)
+2. Click "Generate new token (classic)"
+3. Select the `read:packages` scope (and `write:packages` if you plan to publish)
+4. Copy the generated token
+
+### 2. Configure npm Authentication
+
+**Option A: Using .npmrc file (recommended)**
+
+```bash
+echo "//npm.pkg.github.com/:_authToken=YOUR_GITHUB_TOKEN" >> ~/.npmrc
+```
+
+**Option B: Using npm login**
+
+```bash
+npm login --scope=@shadmanZero --auth-type=legacy --registry=https://npm.pkg.github.com
+# Username: your-github-username
+# Password: your-github-token
+# Email: your-email@example.com
+```
+
+### 3. Install the Package
+
+```bash
+npm install @shadmanZero/tenantos-api
+```
+
+> 💡 **Tip**: You can use both npm and GitHub Packages versions simultaneously by importing from different package names.
 
 ## Complete example
 

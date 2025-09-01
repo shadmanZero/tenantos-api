@@ -25,3 +25,4 @@ docs/*
 
 # Keep .github/docs for GitHub Pages
 !.github/
+.npmrc

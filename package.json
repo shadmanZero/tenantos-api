@@ -1,5 +1,5 @@
 {
-  "name": "tenantos-api",
+  "name": "@shadmanZero/tenantos-api",
   "version": "1.0.3",
   "description": "Type-safe Node.js/TypeScript client for the TenantOS API.",
   "main": "dist/index.js",
@@ -42,6 +42,9 @@
     "docs:api:html": "typedoc --options typedoc.html.json"
   },
   "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "type": "commonjs",
   "sideEffects": false,
   "engines": {

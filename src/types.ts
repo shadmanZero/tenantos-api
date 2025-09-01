@@ -239,6 +239,9 @@ export interface HardwareComponent {
   readonly value: string | number;
   readonly count: number;
   readonly valueType: string;
+  readonly cores?: number;
+  readonly threads?: number;
+  readonly mhzTurbo?: number;
   readonly details?: Array<{
     readonly model: string;
     readonly size: string;
@@ -482,11 +485,30 @@ export interface ServerComment {
 }
 
 export interface ServerIPAssignment {
-  readonly id: number;
+  readonly id?: number;
   readonly ip: string;
-  readonly subnet: string;
-  readonly type: 'primary' | 'secondary';
+  readonly subnet?: string;
+  readonly type?: 'primary' | 'secondary';
   readonly rdnsHostname?: string;
+  readonly updated_at?: string;
+  readonly primary_ip?: number;
+  readonly ipAttributes?: {
+    readonly isIpv4: number;
+    readonly isIpv6: number;
+    readonly isSubnet: number;
+  };
+  readonly subnetinformation?: {
+    readonly cidr?: number;
+    readonly subnet: string;
+    readonly netmask: string;
+    readonly gw: string;
+    readonly type: string;
+    readonly rdnsAvailable?: number;
+    readonly vlanAutomationAvailable?: boolean;
+    readonly subnetOwnedByUser?: boolean;
+    readonly rootSubnetId?: number | null;
+    readonly isExternalProvider?: number;
+  };
 }
 
 export interface ServerInventoryItem {
@@ -515,12 +537,12 @@ export interface ServerSnapshot {
 
 /**
  * Server resource interface
- * 
+ *
  * Represents a physical or virtual server managed by TenantOS.
  * This is one of the core resources in the system and contains
  * comprehensive information about server configuration, hardware,
  * and operational status.
- * 
+ *
  * @example
  * ```typescript
  * const server: Server = {
@@ -540,37 +562,37 @@ export interface ServerSnapshot {
 export interface Server {
   /** Unique identifier for the server */
   readonly id: number;
-  
+
   /** Server hostname (FQDN) */
   readonly hostname: string;
-  
+
   /** Human-readable server name */
   readonly servername: string;
-  
+
   /** ID of the user who owns this server */
   readonly user_id: number;
-  
+
   /** Operating system installed on the server */
   readonly os: string;
-  
+
   /** Type of server (e.g., 'dedicated', 'virtual', 'cloud') */
   readonly servertype: string;
-  
+
   /** Primary IP address of the server */
   readonly primaryip: string;
-  
+
   /** Real name of the server owner */
   readonly owner_realname: string;
-  
+
   /** Array of tags for categorization and filtering */
   readonly tags: readonly string[];
-  
+
   /** Server description or notes */
   readonly description: string;
-  
+
   /** Detailed hardware information (if available) */
   readonly detailedHardwareInformation?: DetailedHardwareInformation;
-  
+
   /** Power management provider configuration */
   readonly powerprovider?: {
     /** Type of power provider (e.g., 'ipmi', 'redfish') */
@@ -578,27 +600,33 @@ export interface Server {
     /** List of supported power management features */
     readonly supportedFeatures: readonly string[];
   };
-  
+
   /** Console access provider configuration */
   readonly consoleprovider?: {
     /** Type of console provider */
     readonly type: string;
   };
-  
+
   /** Flag indicating if OS reinstallation is currently running (1 = yes, 0 = no) */
   readonly reinstallationRunning?: number;
-  
+
   /** Flag indicating if disk wipe operation is currently running */
   readonly diskwipeRunning?: number;
-  
+
   /** Flag indicating if rescue boot is currently active */
   readonly rescueBootRunning?: number;
-  
+
   /** Flag indicating if hardware collection is currently running */
   readonly hardwarecollectRunning?: number;
-  
+
   /** Flag indicating if password reset operation is currently running */
   readonly passwordResetRunning?: number;
+
+  /** Operation result data */
+  readonly result?: unknown;
+
+  /** IP assignments for this server */
+  readonly ipassignments?: readonly ServerIPAssignment[];
 }
 
 // Network device interface

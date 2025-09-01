@@ -1,12 +1,12 @@
-[**tenantos-api**](../README.md)
+[**@shadmanZero/tenantos-api**](../README.md)
 
 ***
 
-[tenantos-api](../globals.md) / ServerActivityLogResource
+[@shadmanZero/tenantos-api](../globals.md) / ServerActivityLogResource
 
 # Class: ServerActivityLogResource
 
-Defined in: [server-extensions.ts:1034](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L1034)
+Defined in: [server-extensions.ts:1034](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/server-extensions.ts#L1034)
 
 Server Activity Log resource
 
@@ -20,7 +20,7 @@ Server Activity Log resource
 
 > **new ServerActivityLogResource**(`client`, `serverId`): `ServerActivityLogResource`
 
-Defined in: [server-extensions.ts:1035](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L1035)
+Defined in: [server-extensions.ts:1035](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/server-extensions.ts#L1035)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [server-extensions.ts:1035](https://github.com/shadmanZero/tenantos-
 
 > `protected` `readonly` **client**: [`TenantosClient`](TenantosClient.md)
 
-Defined in: [server-extensions.ts:77](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L77)
+Defined in: [server-extensions.ts:77](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/server-extensions.ts#L77)
 
 #### Inherited from
 
@@ -58,7 +58,7 @@ Defined in: [server-extensions.ts:77](https://github.com/shadmanZero/tenantos-ap
 
 > **get**(): `Promise`\<`any`[]\>
 
-Defined in: [server-extensions.ts:1039](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L1039)
+Defined in: [server-extensions.ts:1039](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/server-extensions.ts#L1039)
 
 #### Returns
 
@@ -70,7 +70,7 @@ Defined in: [server-extensions.ts:1039](https://github.com/shadmanZero/tenantos-
 
 > `protected` **request**\<`T`\>(`config`): `Promise`\<[`ApiResponse`](../interfaces/ApiResponse.md)\<`T`\>\>
 
-Defined in: [server-extensions.ts:82](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L82)
+Defined in: [server-extensions.ts:82](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/server-extensions.ts#L82)
 
 Make a request to the API with automatic error handling
 
@@ -100,7 +100,7 @@ Make a request to the API with automatic error handling
 
 > `protected` **validateId**(`id`, `resourceName`): `void`
 
-Defined in: [server-extensions.ts:89](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L89)
+Defined in: [server-extensions.ts:89](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/server-extensions.ts#L89)
 
 Validate that an ID is a positive integer
 
@@ -128,7 +128,7 @@ Validate that an ID is a positive integer
 
 > `protected` **validateRequiredString**(`value`, `fieldName`): `void`
 
-Defined in: [server-extensions.ts:98](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L98)
+Defined in: [server-extensions.ts:98](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/server-extensions.ts#L98)
 
 Validate required string field
 

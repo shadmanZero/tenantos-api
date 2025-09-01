@@ -1,12 +1,12 @@
-[**tenantos-api**](../README.md)
+[**@shadmanZero/tenantos-api**](../README.md)
 
 ***
 
-[tenantos-api](../globals.md) / VPSPlan
+[@shadmanZero/tenantos-api](../globals.md) / VPSPlan
 
 # Interface: VPSPlan
 
-Defined in: [types.ts:456](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L456)
+Defined in: [types.ts:456](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L456)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:456](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` `optional` **bandwidth**: `number`
 
-Defined in: [types.ts:462](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L462)
+Defined in: [types.ts:462](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L462)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:462](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` **cpu**: `number`
 
-Defined in: [types.ts:459](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L459)
+Defined in: [types.ts:459](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L459)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:459](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` **disk**: `number`
 
-Defined in: [types.ts:461](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L461)
+Defined in: [types.ts:461](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L461)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [types.ts:461](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` **id**: `number`
 
-Defined in: [types.ts:457](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L457)
+Defined in: [types.ts:457](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L457)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [types.ts:457](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` **memory**: `number`
 
-Defined in: [types.ts:460](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L460)
+Defined in: [types.ts:460](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L460)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [types.ts:460](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` **name**: `string`
 
-Defined in: [types.ts:458](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L458)
+Defined in: [types.ts:458](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L458)
 
 ***
 
@@ -62,4 +62,4 @@ Defined in: [types.ts:458](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` `optional` **price**: `number`
 
-Defined in: [types.ts:463](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L463)
+Defined in: [types.ts:463](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L463)

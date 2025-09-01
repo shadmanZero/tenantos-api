@@ -1,12 +1,12 @@
-[**tenantos-api**](../README.md)
+[**@shadmanZero/tenantos-api**](../README.md)
 
 ***
 
-[tenantos-api](../globals.md) / TenantosAuthorizationError
+[@shadmanZero/tenantos-api](../globals.md) / TenantosAuthorizationError
 
 # Class: TenantosAuthorizationError
 
-Defined in: [errors.ts:306](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/errors.ts#L306)
+Defined in: [errors.ts:306](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L306)
 
 Thrown when user doesn't have permission for an operation
 
@@ -20,7 +20,7 @@ Thrown when user doesn't have permission for an operation
 
 > **new TenantosAuthorizationError**(`message`, `options?`): `TenantosAuthorizationError`
 
-Defined in: [errors.ts:309](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/errors.ts#L309)
+Defined in: [errors.ts:309](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L309)
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: [errors.ts:309](https://github.com/shadmanZero/tenantos-api/blob/545
 
 > `readonly` **name**: `string` = `'TenantosAuthorizationError'`
 
-Defined in: [errors.ts:307](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/errors.ts#L307)
+Defined in: [errors.ts:307](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L307)
 
 #### Overrides
 
@@ -60,7 +60,7 @@ Defined in: [errors.ts:307](https://github.com/shadmanZero/tenantos-api/blob/545
 
 > `readonly` `optional` **requestId**: `string`
 
-Defined in: [errors.ts:126](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/errors.ts#L126)
+Defined in: [errors.ts:126](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L126)
 
 Unique request identifier for tracking (optional)
 
@@ -74,7 +74,7 @@ Unique request identifier for tracking (optional)
 
 > `readonly` `optional` **response**: `unknown`
 
-Defined in: [errors.ts:125](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/errors.ts#L125)
+Defined in: [errors.ts:125](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L125)
 
 Raw response data from the API (optional)
 
@@ -88,7 +88,7 @@ Raw response data from the API (optional)
 
 > `readonly` **statusCode**: `number`
 
-Defined in: [errors.ts:124](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/errors.ts#L124)
+Defined in: [errors.ts:124](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L124)
 
 HTTP status code from the response
 
@@ -102,7 +102,7 @@ HTTP status code from the response
 
 > **getUserMessage**(): `string`
 
-Defined in: [errors.ts:208](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/errors.ts#L208)
+Defined in: [errors.ts:208](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L208)
 
 Get a user-friendly error message based on the HTTP status code
 
@@ -137,7 +137,7 @@ try {
 
 > **isClientError**(): `boolean`
 
-Defined in: [errors.ts:166](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/errors.ts#L166)
+Defined in: [errors.ts:166](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L166)
 
 Check if this is a client error (4xx status codes)
 
@@ -168,7 +168,7 @@ if (error.isClientError()) {
 
 > **isServerError**(): `boolean`
 
-Defined in: [errors.ts:185](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/errors.ts#L185)
+Defined in: [errors.ts:185](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L185)
 
 Check if this is a server error (5xx status codes)
 
@@ -199,7 +199,7 @@ if (error.isServerError()) {
 
 > **isStatus**(`code`): `boolean`
 
-Defined in: [errors.ts:147](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/errors.ts#L147)
+Defined in: [errors.ts:147](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L147)
 
 Check if this error has a specific HTTP status code
 

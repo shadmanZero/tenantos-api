@@ -1,12 +1,12 @@
-[**tenantos-api**](../README.md)
+[**@shadmanZero/tenantos-api**](../README.md)
 
 ***
 
-[tenantos-api](../globals.md) / SystemLog
+[@shadmanZero/tenantos-api](../globals.md) / SystemLog
 
 # Interface: SystemLog
 
-Defined in: [types.ts:409](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L409)
+Defined in: [types.ts:409](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L409)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:409](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` **id**: `number`
 
-Defined in: [types.ts:410](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L410)
+Defined in: [types.ts:410](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L410)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:410](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` **level**: `string`
 
-Defined in: [types.ts:411](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L411)
+Defined in: [types.ts:411](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L411)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:411](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` **message**: `string`
 
-Defined in: [types.ts:412](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L412)
+Defined in: [types.ts:412](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L412)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [types.ts:412](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` **source**: `string`
 
-Defined in: [types.ts:414](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L414)
+Defined in: [types.ts:414](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L414)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: [types.ts:414](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` **timestamp**: `string`
 
-Defined in: [types.ts:413](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L413)
+Defined in: [types.ts:413](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L413)

@@ -1,12 +1,12 @@
-[**tenantos-api**](../README.md)
+[**@shadmanZero/tenantos-api**](../README.md)
 
 ***
 
-[tenantos-api](../globals.md) / BMCUser
+[@shadmanZero/tenantos-api](../globals.md) / BMCUser
 
 # Interface: BMCUser
 
-Defined in: [types.ts:749](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L749)
+Defined in: [types.ts:749](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L749)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:749](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` **enabled**: `boolean`
 
-Defined in: [types.ts:753](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L753)
+Defined in: [types.ts:753](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L753)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:753](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` **id**: `number`
 
-Defined in: [types.ts:750](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L750)
+Defined in: [types.ts:750](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L750)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:750](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` **privilege**: `string`
 
-Defined in: [types.ts:752](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L752)
+Defined in: [types.ts:752](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L752)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [types.ts:752](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` **username**: `string`
 
-Defined in: [types.ts:751](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L751)
+Defined in: [types.ts:751](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L751)

@@ -1,12 +1,12 @@
-[**tenantos-api**](../README.md)
+[**@shadmanZero/tenantos-api**](../README.md)
 
 ***
 
-[tenantos-api](../globals.md) / ServerBackupsResource
+[@shadmanZero/tenantos-api](../globals.md) / ServerBackupsResource
 
 # Class: ServerBackupsResource
 
-Defined in: [server-extensions.ts:336](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L336)
+Defined in: [server-extensions.ts:336](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/server-extensions.ts#L336)
 
 Server Backups resource
 
@@ -20,7 +20,7 @@ Server Backups resource
 
 > **new ServerBackupsResource**(`client`, `serverId`): `ServerBackupsResource`
 
-Defined in: [server-extensions.ts:337](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L337)
+Defined in: [server-extensions.ts:337](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/server-extensions.ts#L337)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [server-extensions.ts:337](https://github.com/shadmanZero/tenantos-a
 
 > `protected` `readonly` **client**: [`TenantosClient`](TenantosClient.md)
 
-Defined in: [server-extensions.ts:77](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L77)
+Defined in: [server-extensions.ts:77](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/server-extensions.ts#L77)
 
 #### Inherited from
 
@@ -58,7 +58,7 @@ Defined in: [server-extensions.ts:77](https://github.com/shadmanZero/tenantos-ap
 
 > **create**(`data`): `Promise`\<`void`\>
 
-Defined in: [server-extensions.ts:350](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L350)
+Defined in: [server-extensions.ts:350](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/server-extensions.ts#L350)
 
 #### Parameters
 
@@ -76,7 +76,7 @@ Defined in: [server-extensions.ts:350](https://github.com/shadmanZero/tenantos-a
 
 > **delete**(`backupId?`): `Promise`\<`void`\>
 
-Defined in: [server-extensions.ts:358](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L358)
+Defined in: [server-extensions.ts:358](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/server-extensions.ts#L358)
 
 #### Parameters
 
@@ -94,7 +94,7 @@ Defined in: [server-extensions.ts:358](https://github.com/shadmanZero/tenantos-a
 
 > **getAvailable**(): `Promise`\<[`ServerBackup`](../interfaces/ServerBackup.md)[]\>
 
-Defined in: [server-extensions.ts:377](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L377)
+Defined in: [server-extensions.ts:377](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/server-extensions.ts#L377)
 
 #### Returns
 
@@ -106,7 +106,7 @@ Defined in: [server-extensions.ts:377](https://github.com/shadmanZero/tenantos-a
 
 > **list**(): `Promise`\<[`ServerBackup`](../interfaces/ServerBackup.md)[]\>
 
-Defined in: [server-extensions.ts:341](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L341)
+Defined in: [server-extensions.ts:341](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/server-extensions.ts#L341)
 
 #### Returns
 
@@ -118,7 +118,7 @@ Defined in: [server-extensions.ts:341](https://github.com/shadmanZero/tenantos-a
 
 > `protected` **request**\<`T`\>(`config`): `Promise`\<[`ApiResponse`](../interfaces/ApiResponse.md)\<`T`\>\>
 
-Defined in: [server-extensions.ts:82](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L82)
+Defined in: [server-extensions.ts:82](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/server-extensions.ts#L82)
 
 Make a request to the API with automatic error handling
 
@@ -148,7 +148,7 @@ Make a request to the API with automatic error handling
 
 > **restore**(`data`): `Promise`\<`void`\>
 
-Defined in: [server-extensions.ts:369](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L369)
+Defined in: [server-extensions.ts:369](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/server-extensions.ts#L369)
 
 #### Parameters
 
@@ -166,7 +166,7 @@ Defined in: [server-extensions.ts:369](https://github.com/shadmanZero/tenantos-a
 
 > `protected` **validateId**(`id`, `resourceName`): `void`
 
-Defined in: [server-extensions.ts:89](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L89)
+Defined in: [server-extensions.ts:89](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/server-extensions.ts#L89)
 
 Validate that an ID is a positive integer
 
@@ -194,7 +194,7 @@ Validate that an ID is a positive integer
 
 > `protected` **validateRequiredString**(`value`, `fieldName`): `void`
 
-Defined in: [server-extensions.ts:98](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/server-extensions.ts#L98)
+Defined in: [server-extensions.ts:98](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/server-extensions.ts#L98)
 
 Validate required string field
 

@@ -1,12 +1,12 @@
-[**tenantos-api**](../README.md)
+[**@shadmanZero/tenantos-api**](../README.md)
 
 ***
 
-[tenantos-api](../globals.md) / PXEDisklayout
+[@shadmanZero/tenantos-api](../globals.md) / PXEDisklayout
 
 # Interface: PXEDisklayout
 
-Defined in: [types.ts:352](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L352)
+Defined in: [types.ts:352](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L352)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:352](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` `optional` **description**: `string`
 
-Defined in: [types.ts:356](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L356)
+Defined in: [types.ts:356](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L356)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:356](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` **id**: `number`
 
-Defined in: [types.ts:353](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L353)
+Defined in: [types.ts:353](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L353)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:353](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` **layout**: `string`
 
-Defined in: [types.ts:355](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L355)
+Defined in: [types.ts:355](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L355)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [types.ts:355](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` **name**: `string`
 
-Defined in: [types.ts:354](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L354)
+Defined in: [types.ts:354](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L354)

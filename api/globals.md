@@ -1,8 +1,8 @@
-[**tenantos-api**](README.md)
+[**@shadmanZero/tenantos-api**](README.md)
 
 ***
 
-# tenantos-api
+# @shadmanZero/tenantos-api
 
 ## Classes
 

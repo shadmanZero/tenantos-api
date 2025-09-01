@@ -1,12 +1,12 @@
-[**tenantos-api**](../README.md)
+[**@shadmanZero/tenantos-api**](../README.md)
 
 ***
 
-[tenantos-api](../globals.md) / PowerOperation
+[@shadmanZero/tenantos-api](../globals.md) / PowerOperation
 
 # Interface: PowerOperation
 
-Defined in: [types.ts:231](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L231)
+Defined in: [types.ts:231](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L231)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:231](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` **action**: [`PowerAction`](../type-aliases/PowerAction.md)
 
-Defined in: [types.ts:232](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L232)
+Defined in: [types.ts:232](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L232)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [types.ts:232](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` `optional` **bootType**: [`BootType`](../type-aliases/BootType.md)
 
-Defined in: [types.ts:233](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L233)
+Defined in: [types.ts:233](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L233)

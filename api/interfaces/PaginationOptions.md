@@ -1,12 +1,12 @@
-[**tenantos-api**](../README.md)
+[**@shadmanZero/tenantos-api**](../README.md)
 
 ***
 
-[tenantos-api](../globals.md) / PaginationOptions
+[@shadmanZero/tenantos-api](../globals.md) / PaginationOptions
 
 # Interface: PaginationOptions
 
-Defined in: [types.ts:144](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L144)
+Defined in: [types.ts:144](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L144)
 
 ## Extended by
 
@@ -18,7 +18,7 @@ Defined in: [types.ts:144](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` `optional` **limit**: `number`
 
-Defined in: [types.ts:146](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L146)
+Defined in: [types.ts:146](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L146)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [types.ts:146](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` `optional` **offset**: `number`
 
-Defined in: [types.ts:147](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L147)
+Defined in: [types.ts:147](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L147)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: [types.ts:147](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` `optional` **page**: `number`
 
-Defined in: [types.ts:145](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L145)
+Defined in: [types.ts:145](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L145)

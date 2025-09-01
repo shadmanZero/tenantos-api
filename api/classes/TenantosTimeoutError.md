@@ -1,12 +1,12 @@
-[**tenantos-api**](../README.md)
+[**@shadmanZero/tenantos-api**](../README.md)
 
 ***
 
-[tenantos-api](../globals.md) / TenantosTimeoutError
+[@shadmanZero/tenantos-api](../globals.md) / TenantosTimeoutError
 
 # Class: TenantosTimeoutError
 
-Defined in: [errors.ts:246](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/errors.ts#L246)
+Defined in: [errors.ts:246](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L246)
 
 Thrown when request times out
 
@@ -20,7 +20,7 @@ Thrown when request times out
 
 > **new TenantosTimeoutError**(`timeout`, `options?`): `TenantosTimeoutError`
 
-Defined in: [errors.ts:249](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/errors.ts#L249)
+Defined in: [errors.ts:249](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L249)
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: [errors.ts:249](https://github.com/shadmanZero/tenantos-api/blob/545
 
 > `readonly` `optional` **cause**: `Error`
 
-Defined in: [errors.ts:236](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/errors.ts#L236)
+Defined in: [errors.ts:236](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L236)
 
 #### Inherited from
 
@@ -60,7 +60,7 @@ Defined in: [errors.ts:236](https://github.com/shadmanZero/tenantos-api/blob/545
 
 > `readonly` **name**: `string` = `'TenantosTimeoutError'`
 
-Defined in: [errors.ts:247](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/errors.ts#L247)
+Defined in: [errors.ts:247](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L247)
 
 #### Overrides
 

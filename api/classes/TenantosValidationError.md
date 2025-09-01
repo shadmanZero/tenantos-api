@@ -1,12 +1,12 @@
-[**tenantos-api**](../README.md)
+[**@shadmanZero/tenantos-api**](../README.md)
 
 ***
 
-[tenantos-api](../globals.md) / TenantosValidationError
+[@shadmanZero/tenantos-api](../globals.md) / TenantosValidationError
 
 # Class: TenantosValidationError
 
-Defined in: [errors.ts:268](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/errors.ts#L268)
+Defined in: [errors.ts:268](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L268)
 
 Thrown when required parameters are missing or invalid
 
@@ -20,7 +20,7 @@ Thrown when required parameters are missing or invalid
 
 > **new TenantosValidationError**(`message`, `field?`, `value?`, `options?`): `TenantosValidationError`
 
-Defined in: [errors.ts:271](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/errors.ts#L271)
+Defined in: [errors.ts:271](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L271)
 
 #### Parameters
 
@@ -56,7 +56,7 @@ Defined in: [errors.ts:271](https://github.com/shadmanZero/tenantos-api/blob/545
 
 > `readonly` `optional` **field**: `string`
 
-Defined in: [errors.ts:273](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/errors.ts#L273)
+Defined in: [errors.ts:273](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L273)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: [errors.ts:273](https://github.com/shadmanZero/tenantos-api/blob/545
 
 > `readonly` **name**: `string` = `'TenantosValidationError'`
 
-Defined in: [errors.ts:269](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/errors.ts#L269)
+Defined in: [errors.ts:269](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L269)
 
 #### Overrides
 
@@ -76,4 +76,4 @@ Defined in: [errors.ts:269](https://github.com/shadmanZero/tenantos-api/blob/545
 
 > `readonly` `optional` **value**: `unknown`
 
-Defined in: [errors.ts:274](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/errors.ts#L274)
+Defined in: [errors.ts:274](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L274)

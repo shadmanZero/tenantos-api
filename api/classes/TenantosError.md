@@ -1,12 +1,12 @@
-[**tenantos-api**](../README.md)
+[**@shadmanZero/tenantos-api**](../README.md)
 
 ***
 
-[tenantos-api](../globals.md) / TenantosError
+[@shadmanZero/tenantos-api](../globals.md) / TenantosError
 
 # Abstract Class: TenantosError
 
-Defined in: [errors.ts:60](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/errors.ts#L60)
+Defined in: [errors.ts:60](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L60)
 
 Base class for all TenantOS API errors
 
@@ -37,7 +37,7 @@ Features:
 
 > **new TenantosError**(`message`, `opts?`): `TenantosError`
 
-Defined in: [errors.ts:63](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/errors.ts#L63)
+Defined in: [errors.ts:63](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L63)
 
 #### Parameters
 
@@ -65,7 +65,7 @@ Defined in: [errors.ts:63](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `abstract` `readonly` **name**: `string`
 
-Defined in: [errors.ts:61](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/errors.ts#L61)
+Defined in: [errors.ts:61](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L61)
 
 #### Overrides
 

@@ -1,14 +1,14 @@
-[**tenantos-api**](../README.md)
+[**@shadmanZero/tenantos-api**](../README.md)
 
 ***
 
-[tenantos-api](../globals.md) / getErrorMessage
+[@shadmanZero/tenantos-api](../globals.md) / getErrorMessage
 
 # Function: getErrorMessage()
 
 > **getErrorMessage**(`error`): `string`
 
-Defined in: [errors.ts:399](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/errors.ts#L399)
+Defined in: [errors.ts:399](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L399)
 
 Utility function to safely extract error message from unknown error
 

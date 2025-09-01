@@ -1,14 +1,14 @@
-[**tenantos-api**](../README.md)
+[**@shadmanZero/tenantos-api**](../README.md)
 
 ***
 
-[tenantos-api](../globals.md) / isTenantosValidationError
+[@shadmanZero/tenantos-api](../globals.md) / isTenantosValidationError
 
 # Function: isTenantosValidationError()
 
 > **isTenantosValidationError**(`error`): `error is TenantosValidationError`
 
-Defined in: [errors.ts:355](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/errors.ts#L355)
+Defined in: [errors.ts:355](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L355)
 
 Type guard to check if an error is a validation error
 

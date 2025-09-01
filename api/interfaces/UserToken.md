@@ -1,12 +1,12 @@
-[**tenantos-api**](../README.md)
+[**@shadmanZero/tenantos-api**](../README.md)
 
 ***
 
-[tenantos-api](../globals.md) / UserToken
+[@shadmanZero/tenantos-api](../globals.md) / UserToken
 
 # Interface: UserToken
 
-Defined in: [types.ts:437](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L437)
+Defined in: [types.ts:437](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L437)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:437](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` `optional` **expiresAt**: `string`
 
-Defined in: [types.ts:442](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L442)
+Defined in: [types.ts:442](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L442)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:442](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` **id**: `number`
 
-Defined in: [types.ts:438](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L438)
+Defined in: [types.ts:438](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L438)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:438](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` `optional` **lastUsed**: `string`
 
-Defined in: [types.ts:443](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L443)
+Defined in: [types.ts:443](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L443)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [types.ts:443](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` **name**: `string`
 
-Defined in: [types.ts:439](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L439)
+Defined in: [types.ts:439](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L439)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [types.ts:439](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` **permissions**: readonly `string`[]
 
-Defined in: [types.ts:441](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L441)
+Defined in: [types.ts:441](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L441)
 
 ***
 
@@ -54,4 +54,4 @@ Defined in: [types.ts:441](https://github.com/shadmanZero/tenantos-api/blob/5456
 
 > `readonly` **token**: `string`
 
-Defined in: [types.ts:440](https://github.com/shadmanZero/tenantos-api/blob/5456fdea44f46a63455944d4982f5327cbeb3156/src/types.ts#L440)
+Defined in: [types.ts:440](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L440)

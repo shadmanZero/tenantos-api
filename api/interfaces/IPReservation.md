@@ -6,7 +6,7 @@
 
 # Interface: IPReservation
 
-Defined in: [types.ts:321](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L321)
+Defined in: [types.ts:324](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L324)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:321](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` `optional` **comment**: `string`
 
-Defined in: [types.ts:325](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L325)
+Defined in: [types.ts:328](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L328)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:325](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **ip**: `string`
 
-Defined in: [types.ts:322](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L322)
+Defined in: [types.ts:325](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L325)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:322](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **reserved**: `boolean`
 
-Defined in: [types.ts:324](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L324)
+Defined in: [types.ts:327](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L327)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [types.ts:324](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **subnet**: `string`
 
-Defined in: [types.ts:323](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L323)
+Defined in: [types.ts:326](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L326)

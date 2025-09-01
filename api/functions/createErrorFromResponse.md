@@ -8,7 +8,7 @@
 
 > **createErrorFromResponse**(`statusCode`, `message`, `response?`, `requestId?`): [`TenantosApiError`](../classes/TenantosApiError.md)
 
-Defined in: [errors.ts:369](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L369)
+Defined in: [errors.ts:369](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/errors.ts#L369)
 
 Helper to create appropriate error from HTTP response
 

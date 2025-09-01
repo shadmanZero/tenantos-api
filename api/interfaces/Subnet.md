@@ -6,7 +6,7 @@
 
 # Interface: Subnet
 
-Defined in: [types.ts:391](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L391)
+Defined in: [types.ts:394](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L394)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:391](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` `optional` **description**: `string`
 
-Defined in: [types.ts:396](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L396)
+Defined in: [types.ts:399](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L399)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:396](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` `optional` **gateway**: `string`
 
-Defined in: [types.ts:395](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L395)
+Defined in: [types.ts:398](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L398)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:395](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **id**: `number`
 
-Defined in: [types.ts:392](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L392)
+Defined in: [types.ts:395](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L395)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [types.ts:392](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **netmask**: `string`
 
-Defined in: [types.ts:394](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L394)
+Defined in: [types.ts:397](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L397)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [types.ts:394](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **network**: `string`
 
-Defined in: [types.ts:393](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L393)
+Defined in: [types.ts:396](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L396)
 
 ***
 
@@ -54,4 +54,4 @@ Defined in: [types.ts:393](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` `optional` **vlanId**: `number`
 
-Defined in: [types.ts:397](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L397)
+Defined in: [types.ts:400](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L400)

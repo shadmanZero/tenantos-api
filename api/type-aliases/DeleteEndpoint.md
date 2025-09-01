@@ -8,7 +8,7 @@
 
 > **DeleteEndpoint**\<`T`\> = [`ApiPaths`](ApiPaths.md)\[`T`\] *extends* `object` ? `U` : `never`
 
-Defined in: [types.ts:31](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L31)
+Defined in: [types.ts:31](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L31)
 
 ## Type Parameters
 

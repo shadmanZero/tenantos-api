@@ -6,7 +6,7 @@
 
 # Interface: RoleFilters
 
-Defined in: [types.ts:170](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L170)
+Defined in: [types.ts:170](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L170)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [types.ts:170](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` `optional` **ownerUserId**: `number`
 
-Defined in: [types.ts:172](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L172)
+Defined in: [types.ts:172](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L172)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [types.ts:172](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` `optional` **search**: `string`
 
-Defined in: [types.ts:152](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L152)
+Defined in: [types.ts:152](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L152)
 
 #### Inherited from
 
@@ -38,4 +38,4 @@ Defined in: [types.ts:152](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` `optional` **type**: `string`
 
-Defined in: [types.ts:171](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L171)
+Defined in: [types.ts:171](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L171)

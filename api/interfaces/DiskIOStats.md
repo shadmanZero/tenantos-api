@@ -6,7 +6,7 @@
 
 # Interface: DiskIOStats
 
-Defined in: [types.ts:740](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L740)
+Defined in: [types.ts:768](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L768)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:740](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **readBytes**: `number`
 
-Defined in: [types.ts:742](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L742)
+Defined in: [types.ts:770](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L770)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:742](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **readOps**: `number`
 
-Defined in: [types.ts:744](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L744)
+Defined in: [types.ts:772](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L772)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:744](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **timestamp**: `string`
 
-Defined in: [types.ts:741](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L741)
+Defined in: [types.ts:769](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L769)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [types.ts:741](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **writeBytes**: `number`
 
-Defined in: [types.ts:743](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L743)
+Defined in: [types.ts:771](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L771)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: [types.ts:743](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **writeOps**: `number`
 
-Defined in: [types.ts:745](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L745)
+Defined in: [types.ts:773](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L773)

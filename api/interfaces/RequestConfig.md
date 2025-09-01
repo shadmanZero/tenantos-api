@@ -6,7 +6,7 @@
 
 # Interface: RequestConfig
 
-Defined in: [types.ts:115](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L115)
+Defined in: [types.ts:115](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L115)
 
 Configuration for individual API requests
 
@@ -19,7 +19,7 @@ It's used internally by the client but can be useful for advanced use cases.
 
 > `readonly` `optional` **data**: `unknown`
 
-Defined in: [types.ts:123](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L123)
+Defined in: [types.ts:123](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L123)
 
 Request body data (for POST/PUT requests)
 
@@ -29,7 +29,7 @@ Request body data (for POST/PUT requests)
 
 > `readonly` `optional` **headers**: `Readonly`\<`Record`\<`string`, `string`\>\>
 
-Defined in: [types.ts:121](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L121)
+Defined in: [types.ts:121](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L121)
 
 Optional headers specific to this request
 
@@ -39,7 +39,7 @@ Optional headers specific to this request
 
 > `readonly` **method**: [`HttpMethod`](../type-aliases/HttpMethod.md)
 
-Defined in: [types.ts:117](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L117)
+Defined in: [types.ts:117](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L117)
 
 HTTP method for the request
 
@@ -49,7 +49,7 @@ HTTP method for the request
 
 > `readonly` `optional` **params**: `Readonly`\<`Record`\<`string`, `string` \| `number` \| `boolean`\>\>
 
-Defined in: [types.ts:125](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L125)
+Defined in: [types.ts:125](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L125)
 
 Query parameters to append to the URL
 
@@ -59,6 +59,6 @@ Query parameters to append to the URL
 
 > `readonly` **url**: `string`
 
-Defined in: [types.ts:119](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L119)
+Defined in: [types.ts:119](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L119)
 
 API endpoint URL (relative to base URL)

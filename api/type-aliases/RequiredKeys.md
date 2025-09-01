@@ -8,7 +8,7 @@
 
 > **RequiredKeys**\<`T`, `K`\> = `T` & `Required`\<`Pick`\<`T`, `K`\>\>
 
-Defined in: [types.ts:685](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L685)
+Defined in: [types.ts:713](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L713)
 
 ## Type Parameters
 

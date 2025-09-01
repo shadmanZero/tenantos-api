@@ -6,7 +6,7 @@
 
 # Interface: RDNSRecord
 
-Defined in: [types.ts:384](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L384)
+Defined in: [types.ts:387](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L387)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:384](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **hostname**: `string`
 
-Defined in: [types.ts:386](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L386)
+Defined in: [types.ts:389](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L389)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:386](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **ip**: `string`
 
-Defined in: [types.ts:385](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L385)
+Defined in: [types.ts:388](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L388)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: [types.ts:385](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` `optional` **ttl**: `number`
 
-Defined in: [types.ts:387](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L387)
+Defined in: [types.ts:390](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L390)

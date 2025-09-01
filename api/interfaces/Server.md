@@ -6,7 +6,7 @@
 
 # Interface: Server
 
-Defined in: [types.ts:540](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L540)
+Defined in: [types.ts:562](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L562)
 
 Server resource interface
 
@@ -38,7 +38,7 @@ const server: Server = {
 
 > `readonly` `optional` **consoleprovider**: `object`
 
-Defined in: [types.ts:583](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L583)
+Defined in: [types.ts:605](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L605)
 
 Console access provider configuration
 
@@ -54,7 +54,7 @@ Type of console provider
 
 > `readonly` **description**: `string`
 
-Defined in: [types.ts:569](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L569)
+Defined in: [types.ts:591](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L591)
 
 Server description or notes
 
@@ -64,7 +64,7 @@ Server description or notes
 
 > `readonly` `optional` **detailedHardwareInformation**: [`DetailedHardwareInformation`](DetailedHardwareInformation.md)
 
-Defined in: [types.ts:572](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L572)
+Defined in: [types.ts:594](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L594)
 
 Detailed hardware information (if available)
 
@@ -74,7 +74,7 @@ Detailed hardware information (if available)
 
 > `readonly` `optional` **diskwipeRunning**: `number`
 
-Defined in: [types.ts:592](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L592)
+Defined in: [types.ts:614](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L614)
 
 Flag indicating if disk wipe operation is currently running
 
@@ -84,7 +84,7 @@ Flag indicating if disk wipe operation is currently running
 
 > `readonly` `optional` **hardwarecollectRunning**: `number`
 
-Defined in: [types.ts:598](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L598)
+Defined in: [types.ts:620](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L620)
 
 Flag indicating if hardware collection is currently running
 
@@ -94,7 +94,7 @@ Flag indicating if hardware collection is currently running
 
 > `readonly` **hostname**: `string`
 
-Defined in: [types.ts:545](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L545)
+Defined in: [types.ts:567](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L567)
 
 Server hostname (FQDN)
 
@@ -104,9 +104,19 @@ Server hostname (FQDN)
 
 > `readonly` **id**: `number`
 
-Defined in: [types.ts:542](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L542)
+Defined in: [types.ts:564](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L564)
 
 Unique identifier for the server
+
+***
+
+### ipassignments?
+
+> `readonly` `optional` **ipassignments**: readonly [`ServerIPAssignment`](ServerIPAssignment.md)[]
+
+Defined in: [types.ts:629](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L629)
+
+IP assignments for this server
 
 ***
 
@@ -114,7 +124,7 @@ Unique identifier for the server
 
 > `readonly` **os**: `string`
 
-Defined in: [types.ts:554](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L554)
+Defined in: [types.ts:576](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L576)
 
 Operating system installed on the server
 
@@ -124,7 +134,7 @@ Operating system installed on the server
 
 > `readonly` **owner\_realname**: `string`
 
-Defined in: [types.ts:563](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L563)
+Defined in: [types.ts:585](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L585)
 
 Real name of the server owner
 
@@ -134,7 +144,7 @@ Real name of the server owner
 
 > `readonly` `optional` **passwordResetRunning**: `number`
 
-Defined in: [types.ts:601](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L601)
+Defined in: [types.ts:623](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L623)
 
 Flag indicating if password reset operation is currently running
 
@@ -144,7 +154,7 @@ Flag indicating if password reset operation is currently running
 
 > `readonly` `optional` **powerprovider**: `object`
 
-Defined in: [types.ts:575](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L575)
+Defined in: [types.ts:597](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L597)
 
 Power management provider configuration
 
@@ -166,7 +176,7 @@ Type of power provider (e.g., 'ipmi', 'redfish')
 
 > `readonly` **primaryip**: `string`
 
-Defined in: [types.ts:560](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L560)
+Defined in: [types.ts:582](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L582)
 
 Primary IP address of the server
 
@@ -176,7 +186,7 @@ Primary IP address of the server
 
 > `readonly` `optional` **reinstallationRunning**: `number`
 
-Defined in: [types.ts:589](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L589)
+Defined in: [types.ts:611](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L611)
 
 Flag indicating if OS reinstallation is currently running (1 = yes, 0 = no)
 
@@ -186,9 +196,19 @@ Flag indicating if OS reinstallation is currently running (1 = yes, 0 = no)
 
 > `readonly` `optional` **rescueBootRunning**: `number`
 
-Defined in: [types.ts:595](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L595)
+Defined in: [types.ts:617](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L617)
 
 Flag indicating if rescue boot is currently active
+
+***
+
+### result?
+
+> `readonly` `optional` **result**: `unknown`
+
+Defined in: [types.ts:626](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L626)
+
+Operation result data
 
 ***
 
@@ -196,7 +216,7 @@ Flag indicating if rescue boot is currently active
 
 > `readonly` **servername**: `string`
 
-Defined in: [types.ts:548](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L548)
+Defined in: [types.ts:570](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L570)
 
 Human-readable server name
 
@@ -206,7 +226,7 @@ Human-readable server name
 
 > `readonly` **servertype**: `string`
 
-Defined in: [types.ts:557](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L557)
+Defined in: [types.ts:579](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L579)
 
 Type of server (e.g., 'dedicated', 'virtual', 'cloud')
 
@@ -216,7 +236,7 @@ Type of server (e.g., 'dedicated', 'virtual', 'cloud')
 
 > `readonly` **tags**: readonly `string`[]
 
-Defined in: [types.ts:566](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L566)
+Defined in: [types.ts:588](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L588)
 
 Array of tags for categorization and filtering
 
@@ -226,6 +246,6 @@ Array of tags for categorization and filtering
 
 > `readonly` **user\_id**: `number`
 
-Defined in: [types.ts:551](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L551)
+Defined in: [types.ts:573](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L573)
 
 ID of the user who owns this server

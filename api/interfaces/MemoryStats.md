@@ -6,7 +6,7 @@
 
 # Interface: MemoryStats
 
-Defined in: [types.ts:733](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L733)
+Defined in: [types.ts:761](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L761)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:733](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **timestamp**: `string`
 
-Defined in: [types.ts:734](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L734)
+Defined in: [types.ts:762](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L762)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:734](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **total**: `number`
 
-Defined in: [types.ts:736](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L736)
+Defined in: [types.ts:764](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L764)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:736](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **usage**: `number`
 
-Defined in: [types.ts:737](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L737)
+Defined in: [types.ts:765](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L765)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [types.ts:737](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **used**: `number`
 
-Defined in: [types.ts:735](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L735)
+Defined in: [types.ts:763](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L763)

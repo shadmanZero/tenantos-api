@@ -6,7 +6,7 @@
 
 # Interface: SystemTimezones
 
-Defined in: [types.ts:644](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L644)
+Defined in: [types.ts:672](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L672)
 
 ## Properties
 
@@ -14,4 +14,4 @@ Defined in: [types.ts:644](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` `optional` **timezones**: readonly `string`[]
 
-Defined in: [types.ts:645](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L645)
+Defined in: [types.ts:673](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L673)

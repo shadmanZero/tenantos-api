@@ -6,7 +6,7 @@
 
 # Class: PXEScriptsResource
 
-Defined in: [resources.ts:254](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L254)
+Defined in: [resources.ts:254](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L254)
 
 PXE Scripts management resource
 
@@ -20,7 +20,7 @@ PXE Scripts management resource
 
 > **new PXEScriptsResource**(`client`): `PXEScriptsResource`
 
-Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L85)
+Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L85)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/1
 
 > `protected` `readonly` **client**: [`TenantosClient`](TenantosClient.md)
 
-Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L85)
+Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L85)
 
 #### Inherited from
 
@@ -54,7 +54,7 @@ Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/1
 
 > **create**(`data`): `Promise`\<[`PXEScript`](../interfaces/PXEScript.md)\>
 
-Defined in: [resources.ts:279](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L279)
+Defined in: [resources.ts:279](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L279)
 
 #### Parameters
 
@@ -188,7 +188,7 @@ The script is linked to the operating systems via tags.
 
 > **delete**(`id`): `Promise`\<`void`\>
 
-Defined in: [resources.ts:309](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L309)
+Defined in: [resources.ts:309](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L309)
 
 #### Parameters
 
@@ -206,7 +206,7 @@ Defined in: [resources.ts:309](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **duplicate**(`pxeScriptId`): `Promise`\<[`PXEScript`](../interfaces/PXEScript.md)\>
 
-Defined in: [resources.ts:318](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L318)
+Defined in: [resources.ts:318](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L318)
 
 #### Parameters
 
@@ -224,7 +224,7 @@ Defined in: [resources.ts:318](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **get**(`id`): `Promise`\<[`PXEScript`](../interfaces/PXEScript.md)\>
 
-Defined in: [resources.ts:264](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L264)
+Defined in: [resources.ts:264](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L264)
 
 #### Parameters
 
@@ -242,7 +242,7 @@ Defined in: [resources.ts:264](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **list**(): `Promise`\<[`PXEScript`](../interfaces/PXEScript.md)[]\>
 
-Defined in: [resources.ts:255](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L255)
+Defined in: [resources.ts:255](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L255)
 
 #### Returns
 
@@ -254,7 +254,7 @@ Defined in: [resources.ts:255](https://github.com/shadmanZero/tenantos-api/blob/
 
 > `protected` **request**\<`T`\>(`config`): `Promise`\<[`ApiResponse`](../interfaces/ApiResponse.md)\<`T`\>\>
 
-Defined in: [resources.ts:90](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L90)
+Defined in: [resources.ts:90](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L90)
 
 Make a request to the API with automatic error handling
 
@@ -284,7 +284,7 @@ Make a request to the API with automatic error handling
 
 > **update**(`id`, `data`): `Promise`\<[`PXEScript`](../interfaces/PXEScript.md)\>
 
-Defined in: [resources.ts:293](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L293)
+Defined in: [resources.ts:293](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L293)
 
 #### Parameters
 
@@ -306,7 +306,7 @@ Defined in: [resources.ts:293](https://github.com/shadmanZero/tenantos-api/blob/
 
 > `protected` **validateId**(`id`, `resourceName`): `void`
 
-Defined in: [resources.ts:97](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L97)
+Defined in: [resources.ts:97](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L97)
 
 Validate that an ID is a positive integer
 
@@ -334,7 +334,7 @@ Validate that an ID is a positive integer
 
 > `protected` **validateRequiredString**(`value`, `fieldName`): `void`
 
-Defined in: [resources.ts:106](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L106)
+Defined in: [resources.ts:106](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L106)
 
 Validate required string field
 

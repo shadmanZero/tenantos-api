@@ -6,7 +6,7 @@
 
 # Class: RemoteAgentsResource
 
-Defined in: [resources.ts:443](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L443)
+Defined in: [resources.ts:443](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L443)
 
 Remote Agents management resource
 
@@ -20,7 +20,7 @@ Remote Agents management resource
 
 > **new RemoteAgentsResource**(`client`): `RemoteAgentsResource`
 
-Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L85)
+Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L85)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/1
 
 > `protected` `readonly` **client**: [`TenantosClient`](TenantosClient.md)
 
-Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L85)
+Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L85)
 
 #### Inherited from
 
@@ -54,7 +54,7 @@ Defined in: [resources.ts:85](https://github.com/shadmanZero/tenantos-api/blob/1
 
 > `readonly` **ipmiKvmIsos**: `object`
 
-Defined in: [resources.ts:550](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L550)
+Defined in: [resources.ts:550](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L550)
 
 #### create()
 
@@ -112,7 +112,7 @@ Defined in: [resources.ts:550](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **create**(`data`): `Promise`\<[`RemoteAgent`](../interfaces/RemoteAgent.md)\>
 
-Defined in: [resources.ts:471](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L471)
+Defined in: [resources.ts:471](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L471)
 
 #### Parameters
 
@@ -178,7 +178,7 @@ inventore
 
 > **delete**(`id`): `Promise`\<`void`\>
 
-Defined in: [resources.ts:501](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L501)
+Defined in: [resources.ts:501](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L501)
 
 #### Parameters
 
@@ -196,7 +196,7 @@ Defined in: [resources.ts:501](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **get**(`id`): `Promise`\<[`RemoteAgent`](../interfaces/RemoteAgent.md)\>
 
-Defined in: [resources.ts:456](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L456)
+Defined in: [resources.ts:456](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L456)
 
 #### Parameters
 
@@ -214,7 +214,7 @@ Defined in: [resources.ts:456](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **getAssignments**(`agentId`): `Promise`\<`any`[]\>
 
-Defined in: [resources.ts:528](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L528)
+Defined in: [resources.ts:528](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L528)
 
 #### Parameters
 
@@ -232,7 +232,7 @@ Defined in: [resources.ts:528](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **list**(`options`): `Promise`\<[`RemoteAgent`](../interfaces/RemoteAgent.md)[]\>
 
-Defined in: [resources.ts:444](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L444)
+Defined in: [resources.ts:444](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L444)
 
 #### Parameters
 
@@ -250,7 +250,7 @@ Defined in: [resources.ts:444](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **reprovisioning**(`agentId`, `data`): `Promise`\<`void`\>
 
-Defined in: [resources.ts:539](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L539)
+Defined in: [resources.ts:539](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L539)
 
 #### Parameters
 
@@ -272,7 +272,7 @@ Defined in: [resources.ts:539](https://github.com/shadmanZero/tenantos-api/blob/
 
 > `protected` **request**\<`T`\>(`config`): `Promise`\<[`ApiResponse`](../interfaces/ApiResponse.md)\<`T`\>\>
 
-Defined in: [resources.ts:90](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L90)
+Defined in: [resources.ts:90](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L90)
 
 Make a request to the API with automatic error handling
 
@@ -302,7 +302,7 @@ Make a request to the API with automatic error handling
 
 > **testConnectivity**(`agentId`): `Promise`\<[`OperationResult`](../interfaces/OperationResult.md)\<`unknown`\>\>
 
-Defined in: [resources.ts:510](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L510)
+Defined in: [resources.ts:510](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L510)
 
 #### Parameters
 
@@ -320,7 +320,7 @@ Defined in: [resources.ts:510](https://github.com/shadmanZero/tenantos-api/blob/
 
 > **update**(`id`, `data`): `Promise`\<[`RemoteAgent`](../interfaces/RemoteAgent.md)\>
 
-Defined in: [resources.ts:485](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L485)
+Defined in: [resources.ts:485](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L485)
 
 #### Parameters
 
@@ -342,7 +342,7 @@ Defined in: [resources.ts:485](https://github.com/shadmanZero/tenantos-api/blob/
 
 > `protected` **validateId**(`id`, `resourceName`): `void`
 
-Defined in: [resources.ts:97](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L97)
+Defined in: [resources.ts:97](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L97)
 
 Validate that an ID is a positive integer
 
@@ -370,7 +370,7 @@ Validate that an ID is a positive integer
 
 > `protected` **validateRequiredString**(`value`, `fieldName`): `void`
 
-Defined in: [resources.ts:106](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/resources.ts#L106)
+Defined in: [resources.ts:106](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/resources.ts#L106)
 
 Validate required string field
 

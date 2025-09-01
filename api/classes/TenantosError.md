@@ -6,7 +6,7 @@
 
 # Abstract Class: TenantosError
 
-Defined in: [errors.ts:60](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L60)
+Defined in: [errors.ts:60](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/errors.ts#L60)
 
 Base class for all TenantOS API errors
 
@@ -37,7 +37,7 @@ Features:
 
 > **new TenantosError**(`message`, `opts?`): `TenantosError`
 
-Defined in: [errors.ts:63](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L63)
+Defined in: [errors.ts:63](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/errors.ts#L63)
 
 #### Parameters
 
@@ -65,7 +65,7 @@ Defined in: [errors.ts:63](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `abstract` `readonly` **name**: `string`
 
-Defined in: [errors.ts:61](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/errors.ts#L61)
+Defined in: [errors.ts:61](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/errors.ts#L61)
 
 #### Overrides
 

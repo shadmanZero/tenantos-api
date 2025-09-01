@@ -6,7 +6,7 @@
 
 # Interface: Task
 
-Defined in: [types.ts:425](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L425)
+Defined in: [types.ts:428](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L428)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:425](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **createdAt**: `string`
 
-Defined in: [types.ts:432](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L432)
+Defined in: [types.ts:435](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L435)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:432](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` `optional` **error**: `string`
 
-Defined in: [types.ts:431](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L431)
+Defined in: [types.ts:434](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L434)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:431](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **id**: `string`
 
-Defined in: [types.ts:426](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L426)
+Defined in: [types.ts:429](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L429)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [types.ts:426](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` `optional` **progress**: `number`
 
-Defined in: [types.ts:429](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L429)
+Defined in: [types.ts:432](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L432)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [types.ts:429](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` `optional` **result**: `unknown`
 
-Defined in: [types.ts:430](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L430)
+Defined in: [types.ts:433](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L433)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [types.ts:430](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **status**: `"pending"` \| `"running"` \| `"completed"` \| `"failed"`
 
-Defined in: [types.ts:428](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L428)
+Defined in: [types.ts:431](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L431)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [types.ts:428](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **type**: `string`
 
-Defined in: [types.ts:427](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L427)
+Defined in: [types.ts:430](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L430)
 
 ***
 
@@ -70,4 +70,4 @@ Defined in: [types.ts:427](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **updatedAt**: `string`
 
-Defined in: [types.ts:433](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L433)
+Defined in: [types.ts:436](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L436)

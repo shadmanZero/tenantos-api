@@ -6,7 +6,7 @@
 
 # Interface: CustomField
 
-Defined in: [types.ts:257](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L257)
+Defined in: [types.ts:260](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L260)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:257](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **field\_id**: `number`
 
-Defined in: [types.ts:258](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L258)
+Defined in: [types.ts:261](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L261)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:258](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **name**: `string`
 
-Defined in: [types.ts:259](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L259)
+Defined in: [types.ts:262](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L262)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:259](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **type**: `string`
 
-Defined in: [types.ts:260](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L260)
+Defined in: [types.ts:263](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L263)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [types.ts:260](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **values**: readonly `unknown`[]
 
-Defined in: [types.ts:261](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L261)
+Defined in: [types.ts:264](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L264)

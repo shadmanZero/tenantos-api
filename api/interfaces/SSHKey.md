@@ -6,7 +6,7 @@
 
 # Interface: SSHKey
 
-Defined in: [types.ts:447](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L447)
+Defined in: [types.ts:450](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L450)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [types.ts:447](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **createdAt**: `string`
 
-Defined in: [types.ts:452](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L452)
+Defined in: [types.ts:455](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L455)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types.ts:452](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **fingerprint**: `string`
 
-Defined in: [types.ts:451](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L451)
+Defined in: [types.ts:454](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L454)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types.ts:451](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **id**: `number`
 
-Defined in: [types.ts:448](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L448)
+Defined in: [types.ts:451](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L451)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [types.ts:448](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **name**: `string`
 
-Defined in: [types.ts:449](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L449)
+Defined in: [types.ts:452](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L452)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: [types.ts:449](https://github.com/shadmanZero/tenantos-api/blob/1519
 
 > `readonly` **publicKey**: `string`
 
-Defined in: [types.ts:450](https://github.com/shadmanZero/tenantos-api/blob/1519ecac4035082956b06ca1cf266b8ad4cc7904/src/types.ts#L450)
+Defined in: [types.ts:453](https://github.com/shadmanZero/tenantos-api/blob/a3061c31c45f4aa1cfaa0e889df3cea522a254ad/src/types.ts#L453)
